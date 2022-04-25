@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Manrope', sans-serif;
+}
+
+.head-text {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.all-text {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.main-head {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+}
+
+.main-head__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-head__block-in {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-head__text {
+    font-size: 12px;
+    line-height: 17px;
+    width: 150px;
+    letter-spacing: 0.04em;
+}
+
+.main-head__main-title {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    box-shadow: inset 250px 0px 0px 1px #F3EB91;
+}
+
+.main-head__navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5E428C;
+    align-items: center;
+    height: 44px;
+}
+
+.main-head__block-in__link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+}
+
+.main-head__block-in__link:hover {
+    text-decoration: underline;
+}
+
+
+/*Контент часть*/
+
+.content__head-block__text {
+    font-size: 64px;
+    line-height: 93px;
+    letter-spacing: 0.04em;
+}
+
+.content {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.content__head-block {
+    position: relative;
+    margin-top: 39px;
+    margin-bottom: 89px;
+}
+
+
+/* .content__font-block1 {
+    position: absolute;
+    width: 760px;
+    height: 481px;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    background-color: #F3EB91;
+}
+
+.content__font-block2 {
+    position: absolute;
+    width: 732px;
+    height: 254px;
+    left: 210px;
+    top: 126px;
+    z-index: 1;
+    background: #E74B8F;
+}
+
+.content__font-block3 {
+    position: absolute;
+    width: 480px;
+    height: 314px;
+    left: 630px;
+    top: 272px;
+    z-index: 2;
+    background: #67D3F7;
+}
+
+.content__font-block4 {
+    position: absolute;
+    width: 306px;
+    height: 18px;
+    background: #5E428C;
+} */
