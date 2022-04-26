@@ -37,14 +37,9 @@
 
 .main-head__block {
     display: flex;
-    justify-content: space-around;
-}
-
-.main-head__block-in {
-    width: 1180px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .main-head__text {
@@ -63,10 +58,12 @@
 
 .main-head__navigation {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #5E428C;
     align-items: center;
     height: 44px;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 .main-head__block-in__link {
@@ -91,8 +88,8 @@
 }
 
 .content {
-    width: 1180px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
 }
 
 .content__head-block {
@@ -101,40 +98,44 @@
     margin-bottom: 89px;
 }
 
-
-/* .content__font-block1 {
-    position: absolute;
-    width: 760px;
-    height: 481px;
-    left: 0px;
-    top: 0px;
-    z-index: 0;
-    background-color: #F3EB91;
+.content__portfolio {
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
-.content__font-block2 {
-    position: absolute;
-    width: 732px;
-    height: 254px;
-    left: 210px;
-    top: 126px;
-    z-index: 1;
-    background: #E74B8F;
+.content__text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    width: 547px;
+    margin-bottom: 37px;
 }
 
-.content__font-block3 {
-    position: absolute;
-    width: 480px;
-    height: 314px;
-    left: 630px;
-    top: 272px;
-    z-index: 2;
-    background: #67D3F7;
+.content__text-width {
+    width: 530px;
 }
 
-.content__font-block4 {
-    position: absolute;
-    width: 306px;
-    height: 18px;
-    background: #5E428C;
-} */
+.content__portfolio__text {
+    margin-bottom: 37px;
+}
+
+.content__portfolio__btn {
+    width: 300px;
+    height: 70px;
+    border: none;
+    background-color: #5E428C;
+    filter: drop-shadow(0px 4px 20px rgba(166, 116, 249, 0.43));
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.content__portfolio__btn:hover {
+    filter: drop-shadow(0px 4px 20px #A674F9);
+}
+
+.content__portfolio__img {
+    width: 735px;
+}

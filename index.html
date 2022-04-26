@@ -12,30 +12,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 
 <body>
     <div class="container">
         <header class="main-head">
             <div class="main-head__block">
-                <div class="main-head__block-in">
-                    <h3 class="main-head__text head-text">9:00-17:00 ПН-ЧТ 9:00-16:00 ПТ</h3>
-                    <h3 class="main-head__text head-text">+7 (4742) 488-987</h3>
-                    <h1 class="main-head__main-title head-text">ЭЛЕКТРОМА ПЛЮС</h1>
-                    <h3 class="main-head__text head-text">ЗАКАЗАТЬ ОНЛАЙН</h3>
-                    <h3 class="main-head__text head-text">Г. ЛИПЕЦК <br> УЛ. ДОВАТОРА, 14</h3>
-                </div>
+                <h3 class="main-head__text head-text">9:00-17:00 ПН-ЧТ 9:00-16:00 ПТ</h3>
+                <h3 class="main-head__text head-text">+7 (4742) 488-987</h3>
+                <h1 class="main-head__main-title head-text">ЭЛЕКТРОМА ПЛЮС</h1>
+                <h3 class="main-head__text head-text">ЗАКАЗАТЬ ОНЛАЙН</h3>
+                <h3 class="main-head__text head-text">Г. ЛИПЕЦК <br> УЛ. ДОВАТОРА, 14</h3>
                 <!--Решить вопрос с переносом и поворотом текста "г. Липецк уд. Доватора, 14", решить вопрос с тенью у надписи "Элеткрома плюс", решить вопрос с шрифтом Dela Gotic-->
             </div>
             <nav class="main-head__navigation">
-                <div class="main-head__block-in">
-                    <a href="#" class="main-head__block-in__link all-text">ПОЛИГРАФИЯ</a>
-                    <a href="#" class="main-head__block-in__link">КОНСТРУКЦИИ</a>
-                    <a href="#" class="main-head__block-in__link">СУВЕНИРКА</a>
-                    <a href="#" class="main-head__block-in__link">УСЛУГИ</a>
-                    <a href="#" class="main-head__block-in__link">О НАС</a>
-                    <a href="#" class="main-head__block-in__link">КОНТАКТЫ</a>
-                </div>
+                <a href="#" class="main-head__block-in__link all-text">ПОЛИГРАФИЯ</a>
+                <a href="#" class="main-head__block-in__link">КОНСТРУКЦИИ</a>
+                <a href="#" class="main-head__block-in__link">СУВЕНИРКА</a>
+                <a href="#" class="main-head__block-in__link">УСЛУГИ</a>
+                <a href="#" class="main-head__block-in__link">О НАС</a>
+                <a href="#" class="main-head__block-in__link">КОНТАКТЫ</a>
             </nav>
         </header>
         <div class="content">
@@ -51,13 +48,17 @@
                 <h2 class="content__head-block__text head-text">С 1996 Г.</h2>
             </div>
 
-            <section>
-                <h3>ПЕЧАТАЕМ КОНТЕНТ <span> НА БУМАГЕ И ВСЕМ, ЧЕМ УГОДНО.</span> ВАШ СОБСТВЕННЫЙ ИЛИ СОЗДАННЫЙ НАМИ <span> С НУЛЯ.</span></h3>
-                <p class="all-text">Рекламное агентство Электрома плюс открыто в 1996 году. С точки зрения банальной эрудиции, каждый индивидуум, критически мотивирующий абстракцию, не может игнорировать критерии утопического субъективизма, концептуально интерпретируя общепринятые
-                    дефанизирующие поляризаторы, поэтому консенсус. </p>
-                <p class="all-text">Достигнутый диалектической материальной классификацией всеобщих мотиваций в парадигматических связях предикатов, решает проблему усовершенствования формирующих геотрансплантационных квазипузлистатов всех кинетически кореллирующих аспектов.</p>
-                <button>СМОТРЕТЬ ПОРТФОЛИО</button>
-                <img src="#" alt="color image">
+            <section class="content__portfolio">
+                <div>
+                    <h3 class="head-text ">ПЕЧАТАЕМ КОНТЕНТ</h3>
+                    <h3 class="head-text"> НА БУМАГЕ И ВСЕМ, ЧЕМ УГОДНО.</h3>
+                    <h3 class="head-text content__portfolio__text"> ВАШ СОБСТВЕННЫЙ ИЛИ СОЗДАННЫЙ НАМИ <span> С НУЛЯ.</span></h3>
+                    <p class="all-text content__text">Рекламное агентство Электрома плюс открыто в 1996 году. С точки зрения банальной эрудиции, каждый индивидуум, критически мотивирующий абстракцию, не может игнорировать критерии утопического субъективизма, концептуально интерпретируя
+                        общепринятые дефанизирующие поляризаторы, поэтому консенсус. </p>
+                    <p class="all-text content__text content__text-width">Достигнутый диалектической материальной классификацией всеобщих мотиваций в парадигматических связях предикатов, решает проблему усовершенствования формирующих геотрансплантационных квазипузлистатов всех кинетически кореллирующих аспектов.</p>
+                    <button class="content__portfolio__btn head-text">СМОТРЕТЬ ПОРТФОЛИО</button>
+                </div>
+                <img src="/img/colors-in-hands.svg" alt="color image" class="content__portfolio__img">
             </section>
 
             <section>
@@ -151,6 +152,7 @@
             </footer>
         </div>
     </div>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
