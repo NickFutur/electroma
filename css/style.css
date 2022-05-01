@@ -6,6 +6,7 @@
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
     font-weight: 400;
+    font-style: normal;
 }
 
 .head-text {
@@ -33,6 +34,7 @@
     margin: 0 auto;
     width: 1100px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .main-head__text {
@@ -45,7 +47,9 @@
     font-size: 24px;
     line-height: 35px;
     letter-spacing: 0.04em;
-    box-shadow: inset 250px 0px 0px 1px #F3EB91;
+    background-color: #F3EB91;
+    padding-top: 5px;
+    background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
 }
 
 .main-head__navigation {
@@ -93,7 +97,7 @@
 .content__head-block {
     position: absolute;
     margin-top: 37px;
-    margin-left: 130px;
+    margin-left: 170px;
 }
 
 .content__text {
@@ -141,7 +145,7 @@
 }
 
 .content__head-block__year {
-    margin-left: 1000px;
+    margin-left: 960px;
     margin-top: 151px;
     font-size: 30px;
 }
@@ -155,15 +159,37 @@
     margin-bottom: 720px;
 }
 
+
+/*Блок Портфолио*/
+
+.content-portfolio {
+    display: flex;
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 674px;
+}
+
 .content__text-width {
     width: 530px;
 }
 
-.content__portfolio__text {
+.content-portfolio__text {
     margin-bottom: 37px;
+    width: 861px;
 }
 
-.content__portfolio__btn {
+.content-portfolio__all-text {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+}
+
+.content-portfolio__text-span {
+    background-color: #F3EB91;
+}
+
+.content-portfolio__btn {
     width: 300px;
     height: 70px;
     border: none;
@@ -175,18 +201,21 @@
     color: #FFFFFF;
 }
 
-.content__portfolio__btn:hover {
+.content-portfolio__btn:hover {
     filter: drop-shadow(0px 4px 20px #A674F9);
 }
 
-.content__portfolio__img {
-    width: 735px;
+.content-portfolio__block1 {
+    position: absolute;
+    z-index: 1;
 }
 
-.content__portfolio {
-    display: flex;
-    padding-left: 130px;
-    padding-right: 130px;
+.content-portfolio__block2 {
+    position: absolute;
+    z-index: 0;
+    width: 735px;
+    height: 490px;
+    left: 350px;
 }
 
 .content__text {
@@ -195,4 +224,119 @@
     letter-spacing: 0.04em;
     width: 547px;
     margin-bottom: 37px;
+}
+
+
+/*Блок что мы делаем*/
+
+.content-work {
+    display: flex;
+    position: relative;
+    height: 861px;
+    flex-direction: column;
+    background-color: #F3EB91;
+}
+
+.content-work__text {
+    font-size: 64px;
+    line-height: 93px;
+    letter-spacing: 0.04em;
+    padding-left: 130px;
+    margin-bottom: 74px;
+    margin-top: 52px;
+}
+
+.content-work__block {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.content-work__block-products {
+    background-color: #FFFEFE;
+    width: 1080px;
+    height: 160px;
+    color: #000000;
+}
+
+.content-work__block-products:hover {
+    width: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content-work__block-advertisement {
+    width: 978px;
+    height: 160px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.content-work__block-advertisement:hover {
+    width: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.content-work__block-title {
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+}
+
+.content-work__simbol {
+    position: absolute;
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.content-work__simbol-white {
+    color: #ffffff;
+}
+
+.content-work__block-title-white {
+    font-family: 'Dela Gothic One';
+    color: #FFFFFF;
+}
+
+.content-work__block-logo {
+    position: relative;
+    width: 884px;
+    height: 160px;
+    background: #E74B8F;
+}
+
+.content-work__block-logo:hover {
+    width: 100%;
+    transition: 1s;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.content-work__block-print {
+    position: absolute;
+    top: 515px;
+    left: 1030px;
+    width: 410px;
+    height: 266px;
+    background: #5E428C;
+}
+
+.content-work__block-print:hover {
+    width: 100%;
+    transition: 1s;
+    z-index: 1;
+    left: 0px;
+    cursor: pointer;
+}
+
+.content-work__block-title-width {
+    width: 200px;
+}
+
+.content-work__simbol-right {
+    font-size: 40px;
+    margin-right: 10px;
+    text-align: center;
 }
