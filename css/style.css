@@ -33,7 +33,7 @@
     .main-head__block {
         display: flex;
         margin: 0 auto;
-        width: 1100px;
+        width: 1180px;
         justify-content: space-between;
         align-items: center;
     }
@@ -62,7 +62,7 @@
     .main-head__navigation__block {
         display: flex;
         margin: 0 auto;
-        width: 1100px;
+        width: 1180px;
         justify-content: space-between;
     }
     
@@ -95,7 +95,7 @@
     .content__head-block {
         position: absolute;
         margin-top: 37px;
-        margin-left: 170px;
+        margin-left: 130px;
     }
     
     .content__text {
@@ -119,8 +119,8 @@
         position: absolute;
         width: 732px;
         height: 254px;
-        left: 130px;
-        top: 145px;
+        left: 210px;
+        top: 126px;
         background: #E74B8F;
     }
     
@@ -143,7 +143,7 @@
     }
     
     .content__head-block__year {
-        margin-left: 960px;
+        margin-left: 1004px;
         margin-top: 151px;
         font-size: 30px;
     }
@@ -152,7 +152,7 @@
         position: relative;
         left: 0px;
         top: 628px;
-        border: 1px solid #5E428C;
+        border: 1px solid #F3EB91;
         width: 100%;
         margin-bottom: 720px;
     }
@@ -161,7 +161,7 @@
     .content-portfolio {
         display: flex;
         position: relative;
-        width: 1100px;
+        width: 1180px;
         margin: 0 auto;
         margin-bottom: 674px;
     }
@@ -189,6 +189,7 @@
         width: 300px;
         height: 70px;
         border: none;
+        font-size: 12px;
         background-color: #5E428C;
         filter: drop-shadow(0px 4px 20px rgba(166, 116, 249, 0.43));
         line-height: 17px;
@@ -420,7 +421,7 @@
     }
     
     .content-service__content {
-        width: 1100px;
+        width: 1180px;
         margin: 0 auto;
     }
     
@@ -440,29 +441,77 @@
         line-height: 35px;
         letter-spacing: 0.04em;
         color: #000000;
-        padding-bottom: 68px;
-    }
-    
-    .content-service__li-simbol-none {
-        list-style-type: none;
     }
     
     .content-service__li-simbol {
         list-style-type: none;
     }
     
-    .content-service__li-simbol:before {
-        content: ">";
-        font-family: 'Manrope', sans-serif;
-        font-size: 30px;
-        text-align: center;
-        margin-right: 51px;
-        background: linear-gradient( to bottom, hsl(0, 0%, 100%) 0%, hsla(0, 0%, 100%) 7.4%, hsla(0, 0%, 100%) 15.3%, hsla(0, 0%, 100%) 20%, hsla(195, 90%, 69%) 28%, hsla(195, 90%, 69%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
-    }
-    
     .content-service__ul {
         padding-inline-start: 0px;
         margin-top: 61px;
+    }
+    
+    .content-service__li__face-block {
+        display: flex;
+        align-items: center;
+    }
+    
+    .content-service__li__face-block__in-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        line-height: 35px;
+        letter-spacing: 0.04em;
+        color: #000000;
+        background-color: #F3EB91;
+    }
+    
+    .content-service__li {
+        width: 971px;
+        cursor: pointer;
+        margin-bottom: 68px;
+    }
+    
+    .content-service__li__main-block {}
+    
+    .content-service__li-block-simbol {
+        font-family: 'Manrope', sans-serif;
+        display: flex;
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+        margin-right: 51px;
+        width: 49px;
+        height: 23px;
+        background-color: #67D3F7;
+    }
+    
+    .content-service__li-block-simbol-after {
+        height: 66px;
+    }
+    
+    .content-service__li-block__text {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        letter-spacing: 0.04em;
+        color: #1F1F1F;
+    }
+    
+    .content-service__li-block__btn {
+        border: none;
+        background: none;
+        padding-left: 48px;
+        padding-right: 48px;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        color: #1F1F1F;
+        text-shadow: 0px 0px 20px #FFFFFF;
     }
     /* Секция новости и акции */
     
@@ -482,7 +531,7 @@
     
     .content-news__block-in-name {
         display: flex;
-        width: 1100px;
+        width: 1180px;
         align-items: center;
         justify-content: space-between;
     }
@@ -503,7 +552,7 @@
     .content-news__block-article {
         display: flex;
         justify-content: space-between;
-        width: 1100px;
+        width: 1180px;
     }
     
     .content-news__block-in-article {
@@ -559,7 +608,7 @@
     .content-print__blocks {
         display: flex;
         flex-direction: column;
-        width: 1100px;
+        width: 1180px;
     }
     
     .content-print__blocks-title {
@@ -572,14 +621,13 @@
         background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
     }
     /* Карусель */
-    
-    .content-print__blocks-slaider {
-        /* width: 1100px; */
-        /* display: flex;
+    /* .content-print__blocks-slaider {
+        width: 1180px;
+        display: flex;
         overflow: hidden;
         align-items: center;
-        margin-top: 73px; */
-    }
+        margin-top: 73px;
+    } */
     /*     
     .slaider-line {
         width: 1066px;
@@ -623,7 +671,7 @@
     }
     
     .first-footer__first-block {
-        width: 1100px;
+        width: 1180px;
         margin: 0 auto;
         margin-top: 59px;
     }
@@ -708,7 +756,7 @@
     
     .first-footer__second-block {
         display: flex;
-        width: 1100px;
+        width: 1180px;
         margin: 0 auto;
         justify-content: space-between;
         margin-bottom: 72px;
@@ -766,7 +814,7 @@
     
     .second-footer {
         display: flex;
-        width: 1100px;
+        width: 1180px;
         height: 87px;
         margin: 0 auto;
         justify-content: space-between;
@@ -775,5 +823,5 @@
     
     .slider {
         height: 300px;
-        width: 1100px;
+        width: 1180px;
     }
