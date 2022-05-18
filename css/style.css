@@ -474,8 +474,6 @@
         margin-bottom: 68px;
     }
     
-    .content-service__li__main-block {}
-    
     .content-service__li-block-simbol {
         font-family: 'Manrope', sans-serif;
         display: flex;
@@ -500,12 +498,13 @@
         line-height: 25px;
         letter-spacing: 0.04em;
         color: #1F1F1F;
+        width: 639px;
     }
     
     .content-service__li-block__btn {
         border: none;
         background: none;
-        padding-left: 48px;
+        padding-left: 61px;
         padding-right: 48px;
         font-size: 18px;
         line-height: 26px;
@@ -513,6 +512,9 @@
         color: #1F1F1F;
         text-shadow: 0px 0px 20px #FFFFFF;
     }
+    /* .content-service__li__main-block:active .content-service__li__face-block {
+        visibility: hidden;
+    } */
     /* Секция новости и акции */
     
     .content-news {

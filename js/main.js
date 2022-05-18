@@ -24,76 +24,58 @@ $(document).ready(function() {
                     slidesToScroll: 1
                 }
             }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
         ]
     });
 });
 
+$(document).ready(function() {
+    $("#turn-off1").css("display", "none");
+    $('#turn-on1').click(function() {
+        $('#turn-on1').hide();
+        $('#turn-off1').fadeIn("slow");
+    })
+    $('#turn-off1').click(function() {
+        $('#turn-off1').hide();
+        $('#turn-on1').fadeIn("slow");
+    })
 
+    $("#turn-off2").css("display", "none");
+    $('#turn-on2').click(function() {
+        $('#turn-on2').hide();
+        $('#turn-off2').fadeIn("slow");
+    })
+    $('#turn-off2').click(function() {
+        $('#turn-off2').hide();
+        $('#turn-on2').fadeIn("slow");
+    })
 
+    $("#turn-off3").css("display", "none");
+    $('#turn-on3').click(function() {
+        $('#turn-on3').hide();
+        $('#turn-off3').fadeIn("slow");
+    })
+    $('#turn-off3').click(function() {
+        $('#turn-off3').hide();
+        $('#turn-on3').fadeIn("slow");
+    })
 
+    $("#turn-off4").css("display", "none");
+    $('#turn-on4').click(function() {
+        $('#turn-on4').hide();
+        $('#turn-off4').fadeIn("slow");
+    })
+    $('#turn-off4').click(function() {
+        $('#turn-off4').hide();
+        $('#turn-on4').fadeIn("slow");
+    })
 
-// let position = 0;
-// const slider = document.querySelector('content-print__blocks-slaider');
-// const line = document.querySelector('slaider-line');
-// const items = document.querySelectorAll('conetent-print__slaider-item');
-// const btnLeft = document.querySelector('conetent-print__slaider-btn-left');
-// const btnRight = document.querySelector('conetent-print__slaider-btn-right');
-
-// const SetListener = (element, type, handler) => {
-//     if (!element) {
-//         return;
-//     }
-//     element.addEventListener(type, handler);
-//     return () => {
-//         element.removeEventListener(type, handler);
-//     };
-// }
-
-// SetListener(btnRight, 'click', () => {
-//     position += 170;
-//     line.style.left = position + 'px';
-// });
-
-// let position = 0;
-// const sliderToShow = 5;
-// const sliderToScroll = 1;
-// const slider = document.querySelector('content-print__blocks-slaider');
-// const line = document.querySelector('slaider-line');
-// const items = document.querySelectorAll('conetent-print__slaider-item');
-// const btnLeft = document.querySelector('conetent-print__slaider-btn-left');
-// const btnRight = document.querySelector('conetent-print__slaider-btn-right');
-// const itemsCount = items.length;
-// const itemWidth = slider.clientWidth / sliderToShow;
-// const movePosition = sliderToScroll * itemWidth;
-
-// items.forEach((item) => {
-//     item.style.minWidth = '$(itemWidth)px';
-// });
-
-// btnRight.addEventListener('click', () => {
-//     const itemLeft = itemsCount - (Math.abs(position) + sliderToShow * itemWidth) / itemWidth;
-//     position -= itemLeft >= sliderToScroll ? movePosition : itemLeft * itemWidth;
-//     setPosition();
-//     checkBtns();
-// });
-
-// btnLeft.addEventListener('click', () => {
-//     const itemLeft = itemsCount - (Math.abs(position) + sliderToShow * itemWidth) / itemWidth;
-//     position += itemLeft <= sliderToScroll ? movePosition : itemLeft * itemWidth;
-//     setPosition();
-//     checkBtns();
-// });
-
-// const setPosition = () => {
-//     line.style.transform = 'translateX(&{position}px)';
-// };
-
-// const checkBtns = () => {
-//     btnLeft.disabled = position === 0;
-//     btnRight.disabled = position <= -(itemsCount - sliderToShow) * itemWidth;
-// };
-
-// checkBtns();
+    $("#turn-off5").css("display", "none");
+    $('#turn-on5').click(function() {
+        $('#turn-on5').hide();
+        $('#turn-off5').fadeIn("slow");
+    })
+    $('#turn-off5').click(function() {
+        $('#turn-off5').hide();
+        $('#turn-on5').fadeIn("slow");
+    })
+});
