@@ -10,6 +10,8 @@
         font-style: normal;
     }
     
+     :root {}
+    
     .head-text {
         font-family: 'Dela Gothic One';
         color: #1F1F1F;
@@ -44,6 +46,16 @@
         letter-spacing: 0.04em;
     }
     
+    .main-head__link {
+        text-decoration: none;
+    }
+    
+    .main-head__link:hover {
+        letter-spacing: 0.04em;
+        color: #F3EB91;
+        text-shadow: 1px 0 1px #252525, 0 1px 1px #252525, -1px 0 1px #252525, 0 -1px 1px #252525;
+    }
+    
     .main-head__main-title {
         font-size: 24px;
         line-height: 35px;
@@ -76,7 +88,7 @@
     
     .main-head__block-in__link:hover {
         text-decoration: underline;
-        color: #ffffff;
+        color: #F3EB91;
     }
     /*Контент часть*/
     
@@ -182,7 +194,7 @@
     }
     
     .content-portfolio__text-span {
-        background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+        background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 78.1%, hsla(0, 0%, 91%, 0.1) 84.2%, hsla(0, 0%, 91%, 0.1) 89.6%, hsla(0, 0%, 91%, 0.1) 94.1%, hsla(0, 0%, 91%, 0.1) 97.6%, hsla(0, 0%, 91%, 0.1) 100%);
     }
     
     .content-portfolio__btn {
@@ -200,6 +212,7 @@
     
     .content-portfolio__btn:hover {
         filter: drop-shadow(0px 4px 20px #A674F9);
+        text-decoration: underline;
     }
     
     .content-portfolio__block1 {
@@ -246,9 +259,8 @@
         align-items: center;
         padding-left: 130px;
     }
-    /*products*/
     
-    .content-work__block-products2 {
+    .content-work__block-all {
         padding: 0;
         font-family: 'Montserrat';
         font-style: normal;
@@ -257,34 +269,26 @@
         line-height: 29px;
         text-align: justify;
         letter-spacing: 0.04em;
+        width: 100%;
+        display: flex;
+        cursor: pointer;
+        min-height: 160px;
+    }
+    /*products*/
+    
+    .content-work__block-products2 {
+        background-color: #FFFEFE;
+        color: #000000;
     }
     
     .content-work__block-products1 {
         display: flex;
         position: relative;
         width: 1080px;
-        min-height: 160px;
+        height: 160px;
         background-color: #FFFEFE;
         color: #000000;
-    }
-    
-    .content-work__block-products1:hover {
-        width: 100%;
-        transition: 1s;
-        z-index: 2;
         cursor: pointer;
-    }
-    
-    .content-work__block-products:hover .content-work__block-off {
-        display: none;
-    }
-    
-    .content-work__block-products:hover .content-work__block-on {
-        display: block;
-    }
-    
-    .content-work__block-on {
-        display: none;
     }
     /*advertisement*/
     
@@ -292,28 +296,18 @@
         display: flex;
         position: relative;
         width: 978px;
-        min-height: 160px;
+        height: 160px;
         background-color: #000000;
         color: #FFFFFF;
-    }
-    
-    .content-work__block-advertisement1:hover {
-        width: 100%;
-        transition: 1s;
-        z-index: 2;
         cursor: pointer;
+        align-items: center;
     }
     
-    .content-work__block-advertisement:hover .content-work__block-off-ad {
-        display: none;
-    }
-    
-    .content-work__block-advertisement:hover .content-work__block-on-ad {
-        display: block;
-    }
-    
-    .content-work__block-on-ad {
-        display: none;
+    .content-work__block-advertisement2 {
+        color: #FFFFFF;
+        background-color: #000000;
+        position: relative;
+        z-index: 3;
     }
     
     .content-work__block-title {
@@ -345,25 +339,15 @@
         width: 884px;
         min-height: 160px;
         background: #E74B8F;
-    }
-    
-    .content-work__block-logo1:hover {
-        width: 100%;
-        transition: 1s;
-        z-index: 1;
         cursor: pointer;
     }
     
-    .content-work__block-logo:hover .content-work__block-off-logo {
-        display: none;
-    }
-    
-    .content-work__block-logo:hover .content-work__block-on-logo {
-        display: block;
-    }
-    
-    .content-work__block-on-logo {
-        display: none;
+    .content-work__block-logo2 {
+        position: relative;
+        width: 100%;
+        min-height: 160px;
+        background: #E74B8F;
+        z-index: 3;
     }
     /*print*/
     
@@ -376,21 +360,19 @@
         height: 266px;
         background: #5E428C;
         align-items: center;
-    }
-    
-    .content-work__block-print1:hover {
-        width: 100%;
-        transition: 1s;
-        z-index: 1;
-        left: 0px;
         cursor: pointer;
     }
     
-    .content-work__block-print2-text {
-        width: 120px;
-        margin-top: 89px;
-        margin-left: 602px;
-        text-align: center;
+    .content-work__block-print2 {
+        position: absolute;
+        display: flex;
+        top: 515px;
+        left: 0px;
+        width: 100%;
+        z-index: 11;
+        cursor: pointer;
+        background: #5E428C;
+        min-height: 266px;
     }
     
     .content-work__block-title-width {
@@ -403,16 +385,21 @@
         margin-right: 10px;
     }
     
-    .content-work__block-print:hover .content-work__block-off-print {
-        display: none;
+    .content-work__block-print2-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
     }
     
-    .content-work__block-print:hover .content-work__block-on-print {
-        display: block;
-    }
-    
-    .content-work__block-on-print {
-        display: none;
+    .content-work__block-print2-text p {
+        width: 135px;
+        text-align: center;
     }
     /* Услуги типографии */
     
@@ -512,9 +499,6 @@
         color: #1F1F1F;
         text-shadow: 0px 0px 20px #FFFFFF;
     }
-    /* .content-service__li__main-block:active .content-service__li__face-block {
-        visibility: hidden;
-    } */
     /* Секция новости и акции */
     
     .content-news {
@@ -791,10 +775,6 @@
         margin-bottom: 24px;
     }
     
-    .first-footer__second-block__text-link:hover {
-        color: #FFFFFF;
-    }
-    
     .first-footer__text-width {
         width: 204px;
     }
@@ -811,6 +791,7 @@
     .first-footer__second-block__btn:hover {
         filter: drop-shadow(0px 4px 20px #FFFFFF);
         box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.63);
+        text-decoration: underline;
     }
     /*Второй подвал*/
     

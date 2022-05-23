@@ -78,4 +78,45 @@ $(document).ready(function() {
         $('#turn-off5').hide();
         $('#turn-on5').fadeIn("slow");
     })
+
+    $(".content-work__block-on").css("display", "none");
+    $('.content-work__block-off').click(function() {
+        $('.content-work__block-off').hide();
+        $('.content-work__block-on').fadeIn("fast");
+    })
+    $('.content-work__block-on').click(function() {
+        $('.content-work__block-on').hide();
+        $('.content-work__block-off').fadeIn("fast");
+    })
+
+    $(".content-work__block-on-ad").css("display", "none");
+    $('.content-work__block-off-ad').click(function() {
+        $('.content-work__block-off-ad').hide();
+        $('.content-work__block-on-ad').fadeIn("fast");
+    })
+    $('.content-work__block-on-ad').click(function() {
+        $('.content-work__block-on-ad').hide();
+        $('.content-work__block-off-ad').fadeIn("fast");
+    })
+
+    $(".content-work__block-on-logo").css("display", "none");
+    $('.content-work__block-off-logo').click(function() {
+        $('.content-work__block-off-logo').hide();
+        $('.content-work__block-on-logo').fadeIn("fast");
+    })
+    $('.content-work__block-on-logo').click(function() {
+        $('.content-work__block-on-logo').hide();
+        $('.content-work__block-off-logo').fadeIn("fast");
+    })
+
+    $(".content-work__block-on-print").css("display", "none");
+    $('.content-work__block-off-print').click(function() {
+
+        $('.content-work__block-off-print').hide();
+        $('.content-work__block-on-print').fadeIn("fast");
+    })
+    $('.content-work__block-on-print').click(function() {
+        $('.content-work__block-on-print').hide();
+        $('.content-work__block-off-print').fadeIn("fast");
+    })
 });
