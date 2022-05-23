@@ -1,4 +1,104 @@
-@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1440px) {
+    .wrapper {
+        width: 100%;
+    }
+    .main-head__navigation {
+        width: 100%;
+    }
+    .main-head__block {
+        width: 100%;
+    }
+    .content__font-block4 {
+        width: 190px;
+        height: 18px;
+    }
+    .content__head-block__year {
+        margin-top: 151px;
+        font-size: 3.0rem;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .wrapper {
+        width: 100%;
+    }
+    .main-head__block {
+        width: 100%;
+    }
+    .main-head__block-conteiner .main-head__navigation__block {
+        width: 90%;
+    }
+    .main-head__navigation {
+        width: 100%;
+    }
+    .content__font-block1 {
+        width: 660px;
+        height: 381px;
+    }
+    .content__font-block2 {
+        width: 632px;
+        height: 154px;
+    }
+    .content__font-block3 {
+        width: 380px;
+        height: 214px;
+    }
+    .content__font-block4 {
+        width: 190px;
+        height: 18px;
+        top: 430px;
+    }
+    .content__head-block__year {
+        margin-left: 950px;
+        margin-top: 71px;
+        font-size: 2.0rem;
+    }
+    .line {
+        top: 528px;
+        width: 100%;
+        margin-bottom: 620px;
+    }
+    .content__head-block__text {
+        font-size: 5.5rem;
+    }
+    .content-work__block-products1 {
+        width: 880px;
+        height: 160px;
+    }
+    .content-work__block-advertisement1 {
+        width: 778px;
+        height: 160px;
+    }
+    .content-work__block-logo1 {
+        width: 684px;
+        min-height: 160px;
+    }
+    .content-work__block-print1 {
+        width: 310px;
+        height: 266px;
+        padding-left: 0;
+    }
+    .content-img img {
+        width: 100%;
+    }
+    /*Footer*/
+    .first-footer__first-block__in-block {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 111px;
+    }
+    .first-footer__second-block {
+        width: 90%;
+    }
+    .second-footer {
+        width: 90%;
+    }
+    .content-print__blocks {
+        width: 90%;
+    }
+}
 
 @media only screen and (max-width: 1024px) {}
 

@@ -10,7 +10,10 @@
         font-style: normal;
     }
     
-     :root {}
+     :root {
+        font-size: 0.625em;
+        /*10px*/
+    }
     
     .head-text {
         font-family: 'Dela Gothic One';
@@ -34,6 +37,11 @@
     
     .main-head__block {
         display: flex;
+        align-items: center;
+    }
+    
+    .main-head__block-conteiner {
+        display: flex;
         margin: 0 auto;
         width: 1180px;
         justify-content: space-between;
@@ -41,7 +49,7 @@
     }
     
     .main-head__text {
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 17px;
         letter-spacing: 0.04em;
     }
@@ -57,7 +65,7 @@
     }
     
     .main-head__main-title {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 35px;
         letter-spacing: 0.04em;
         padding-top: 5px;
@@ -67,7 +75,7 @@
     .main-head__navigation {
         display: flex;
         align-items: center;
-        height: 44px;
+        height: 4.4rem;
         background-color: #5E428C;
     }
     
@@ -81,7 +89,7 @@
     .main-head__block-in__link {
         text-decoration: none;
         color: #ffffff;
-        font-size: 12px;
+        font-size: 1.2rem;
         line-height: 16px;
         letter-spacing: 0.04em;
     }
@@ -93,7 +101,7 @@
     /*Контент часть*/
     
     .content__head-block__text {
-        font-size: 64px;
+        font-size: 6.4rem;
         line-height: 93px;
         letter-spacing: 0.04em;
     }
@@ -111,7 +119,7 @@
     }
     
     .content__text {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 25px;
         letter-spacing: 0.04em;
         width: 547px;
@@ -149,7 +157,7 @@
         position: absolute;
         width: 306px;
         height: 18px;
-        left: 1134px;
+        right: 0px;
         top: 530px;
         background: #5E428C;
     }
@@ -157,7 +165,7 @@
     .content__head-block__year {
         margin-left: 1004px;
         margin-top: 151px;
-        font-size: 30px;
+        font-size: 3.0rem;
     }
     
     .line {
@@ -188,7 +196,7 @@
     }
     
     .content-portfolio__all-text {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 26px;
         letter-spacing: 0.04em;
     }
@@ -201,7 +209,7 @@
         width: 300px;
         height: 70px;
         border: none;
-        font-size: 12px;
+        font-size: 1.2rem;
         background-color: #5E428C;
         filter: drop-shadow(0px 4px 20px rgba(166, 116, 249, 0.43));
         line-height: 17px;
@@ -229,7 +237,7 @@
     }
     
     .content__text {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 25px;
         letter-spacing: 0.04em;
         width: 547px;
@@ -246,7 +254,7 @@
     }
     
     .content-work__text {
-        font-size: 64px;
+        font-size: 6.4rem;
         line-height: 93px;
         letter-spacing: 0.04em;
         padding-left: 130px;
@@ -265,7 +273,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 29px;
         text-align: justify;
         letter-spacing: 0.04em;
@@ -311,7 +319,7 @@
     }
     
     .content-work__block-title {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 35px;
         letter-spacing: 0.04em;
     }
@@ -319,7 +327,7 @@
     .content-work__simbol {
         font-family: 'Manrope', sans-serif;
         position: absolute;
-        font-size: 40px;
+        font-size: 4.0rem;
         margin-left: 10px;
         text-align: center;
     }
@@ -355,12 +363,14 @@
         position: absolute;
         display: flex;
         top: 515px;
-        left: 1030px;
+        right: 0px;
         width: 410px;
         height: 266px;
         background: #5E428C;
         align-items: center;
+        justify-content: center;
         cursor: pointer;
+        /* padding-right: 50px; */
     }
     
     .content-work__block-print2 {
@@ -381,7 +391,7 @@
     
     .content-work__simbol-right {
         font-family: 'Manrope', sans-serif;
-        font-size: 40px;
+        font-size: 4.0rem;
         margin-right: 10px;
     }
     
@@ -389,7 +399,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 29px;
         align-items: center;
         justify-content: center;
@@ -424,7 +434,7 @@
     }
     
     .content-service__li-text {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 35px;
         letter-spacing: 0.04em;
         color: #000000;
@@ -448,7 +458,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 35px;
         letter-spacing: 0.04em;
         color: #000000;
@@ -464,7 +474,7 @@
     .content-service__li-block-simbol {
         font-family: 'Manrope', sans-serif;
         display: flex;
-        font-size: 40px;
+        font-size: 4.0rem;
         align-items: center;
         justify-content: center;
         margin-right: 51px;
@@ -481,7 +491,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 25px;
         letter-spacing: 0.04em;
         color: #1F1F1F;
@@ -493,7 +503,7 @@
         background: none;
         padding-left: 61px;
         padding-right: 48px;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 26px;
         letter-spacing: 0.04em;
         color: #1F1F1F;
@@ -523,7 +533,7 @@
     }
     
     .content-news__block-in-name__title {
-        font-size: 64px;
+        font-size: 6.4rem;
         line-height: 93px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
@@ -555,7 +565,7 @@
     }
     
     .content-news__block-article__article-all-text {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 25px;
         letter-spacing: 0.04em;
         margin-bottom: 8px;
@@ -563,7 +573,7 @@
     
     .content-news__block-article__article-under-text {
         font-weight: 200;
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 19px;
         letter-spacing: 0.04em;
         color: #1F1F1F;
@@ -580,6 +590,10 @@
     
     .content-img {
         margin-top: 80px;
+    }
+    
+    .content-img img {
+        width: 100%;
     }
     /* У нас печатают */
     
@@ -607,24 +621,8 @@
         background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
     }
     /* Карусель */
-    /* .content-print__blocks-slaider {
-        width: 1180px;
-        display: flex;
-        overflow: hidden;
-        align-items: center;
-        margin-top: 73px;
-    } */
-    /*     
-    .slaider-line {
-        width: 1066px;
-        margin: 0 auto;
-        display: flex;
-        position: relative;
-        left: 0;
-    } */
     
     .conetent-print__slaider-item {
-        /* width: 170px; */
         min-height: 237px;
         display: flex;
         flex-direction: column;
@@ -644,7 +642,7 @@
         background-color: #FFFFFF;
         height: 50px;
         font-family: 'Manrope', sans-serif;
-        font-size: 30px;
+        font-size: 3.0rem;
         position: relative;
         z-index: 3;
     }
@@ -701,7 +699,7 @@
         height: 70px;
         left: 878px;
         background-color: #E74B8F;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 26px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
@@ -727,7 +725,7 @@
         font-family: 'Manrope', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1.6rem;
         line-height: 22px;
         letter-spacing: 0.02em;
         color: #FFFFFF;
@@ -767,7 +765,7 @@
         font-family: 'Manrope';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 25px;
         letter-spacing: 0.04em;
         color: #FFFFFF;
