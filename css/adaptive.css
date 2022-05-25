@@ -10,10 +10,10 @@
     .main-head__block {
         width: 100%;
     }
-    .content__font-block4 {
+    /* .content__font-block4 {
         width: 190px;
         height: 18px;
-    }
+    } */
     .content__head-block__year {
         margin-top: 151px;
         font-size: 3.0rem;
@@ -21,9 +21,6 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .wrapper {
-        width: 100%;
-    }
     .main-head__block {
         width: 100%;
     }
@@ -49,6 +46,16 @@
         width: 190px;
         height: 18px;
         top: 430px;
+    }
+    .content-service__content {
+        width: 90%;
+    }
+    .content-service {
+        justify-content: center;
+    }
+    .content-portfolio {
+        width: 100%;
+        justify-content: center;
     }
     .content__head-block__year {
         margin-left: 950px;
@@ -83,30 +90,133 @@
     .content-img img {
         width: 100%;
     }
+    /*news*/
+    .content-news__block-in-name {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .content-news__block-article {
+        justify-content: space-around;
+        width: 100%;
+    }
     /*Footer*/
+    .first-footer__first-block {
+        width: 100%;
+    }
     .first-footer__first-block__in-block {
         width: 90%;
         margin: 0 auto;
         margin-bottom: 111px;
     }
-    .first-footer__second-block {
-        width: 90%;
-    }
-    .second-footer {
-        width: 90%;
-    }
+    .first-footer__second-block,
+    .second-foote,
     .content-print__blocks {
         width: 90%;
     }
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1200px) {
+    .content-work__text {
+        font-size: 5.5rem;
+    }
+}
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px) {
+     :root {
+        font-size: 0.555em;
+    }
+    .main-head__block-conteiner,
+    .main-head__navigation__block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content__head-block__year {
+        margin-left: 0;
+        margin-top: 130px;
+    }
+    .content__font-block3 {
+        right: 0;
+        width: 320px;
+    }
+    .content__font-block4 {
+        top: 480px;
+    }
+    .content-portfolio__block2 {
+        left: 100px;
+    }
+    .first-footer__block__main-text {
+        width: 100%;
+    }
+    .content-portfolio__margin-btn {
+        margin-top: 30px;
+    }
+    .content-news__block-in-name__title {
+        text-align: center;
+    }
+    .second-footer {
+        width: 100%;
+    }
+    .content-news__block-article {
+        justify-content: space-between;
+    }
+    .content-news__block-in-article {
+        margin-left: 30px;
+    }
+    /* Услуги типографии */
+    .content-service__li {
+        width: 100%;
+    }
+    .content-service__li-block-simbol {
+        margin-right: 8%;
+    }
+    .content-service__li-block-simbol-after {
+        height: 66px;
+    }
+    .content-service__li-block__text {
+        /* font-size: 1.5rem; */
+        width: 639x;
+    }
+    .content-service__li-block__btn {
+        padding-left: 41px;
+        padding-right: 28px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .content__font-block3 {
+        left: 580px;
+    }
+    .content-work {
+        height: 100%;
+    }
+    .content-work__block-print1 {
+        position: relative;
+        top: 0;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .content-work__block-print2 {
+        position: relative;
+        top: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .content-service__li {
+        width: 100%;
+    }
+    .content__font-block3 {
+        right: 0;
+    }
+}
 
 @media only screen and (max-width: 768px) {}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .main-head-off {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 375px) {}
 

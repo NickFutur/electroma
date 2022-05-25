@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ :root {
+    font-size: 0.625em;
+    /*10px*/
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-text {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+    color: #1F1F1F;
+}
+
+.head-text-logo {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    padding-top: 5px;
+    margin-right: 31px;
+    margin-left: 31px;
+    background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+}
+
+header {
+    min-height: 122px;
+    align-items: center;
+}
+
+.head-block {
+    width: 1180px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-block {
+    padding: 0;
+}
+
+.nav-ul {
+    list-style-type: none;
+    display: flex;
+    width: 1180px;
+}
+
+nav {
+    background-color: #5E428C;
+    width: 100%;
+    height: 44px;
+}
+
+.nav-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.nav-text:hover {
+    text-decoration: underline;
+    color: #F3EB91;
+}
+
+.line {
+    background-color: #F3EB91;
+    width: 1440px;
+    height: 1px;
+}
