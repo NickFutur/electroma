@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1600px) {}
+@media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1440px) {
     .wrapper {
@@ -10,10 +10,9 @@
     .main-head__block {
         width: 100%;
     }
-    /* .content__font-block4 {
-        width: 190px;
-        height: 18px;
-    } */
+    .year-block {
+        top: 340px;
+    }
     .content__head-block__year {
         margin-top: 151px;
         font-size: 3.0rem;
@@ -58,8 +57,7 @@
         justify-content: center;
     }
     .content__head-block__year {
-        margin-left: 950px;
-        margin-top: 71px;
+        margin-top: 65px;
         font-size: 2.0rem;
     }
     .line {
@@ -90,6 +88,9 @@
     .content-img img {
         width: 100%;
     }
+    .content-portfolio__block2 {
+        left: 250px;
+    }
     /*news*/
     .content-news__block-in-name {
         width: 100%;
@@ -112,6 +113,9 @@
     .second-foote,
     .content-print__blocks {
         width: 90%;
+    }
+    .second-footer {
+        width: 100%;
     }
 }
 
@@ -152,9 +156,6 @@
     }
     .content-news__block-in-name__title {
         text-align: center;
-    }
-    .second-footer {
-        width: 100%;
     }
     .content-news__block-article {
         justify-content: space-between;
@@ -210,14 +211,301 @@
     }
 }
 
-@media only screen and (max-width: 768px) {}
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
     .main-head-off {
         display: none;
     }
+    .main-head-on {
+        display: block;
+    }
 }
 
-@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 375px) {
+     :root {
+        font-size: 0.625em;
+    }
+    .main-head-off {
+        display: none;
+    }
+    .main-head-on {
+        display: block;
+    }
+    .content {
+        margin-top: 18px;
+    }
+    .content__head-block {
+        margin-top: 21px;
+        margin-left: 38px;
+    }
+    .content__font-block1 {
+        width: 198px;
+        height: 150px;
+    }
+    .content__font-block2 {
+        width: 221px;
+        height: 78px;
+        left: 60px;
+        top: 52px;
+    }
+    .content__font-block3 {
+        width: 131px;
+        height: 93px;
+        left: 179px;
+        top: 78px;
+    }
+    .content__font-block4 {
+        width: 102px;
+        height: 15px;
+        top: 218px;
+    }
+    .content__head-block__text {
+        font-size: 1.8rem;
+        line-height: 26px;
+    }
+    .year-block {
+        top: 37px;
+    }
+    .content__head-block__year {
+        font-size: 1.1rem;
+        margin-top: 140px;
+    }
+    .content-portfolio {
+        margin-top: 250px;
+        margin-bottom: 422px;
+    }
+    .content-portfolio {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .content-portfolio__block1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        padding-left: 39px;
+        padding-left: 39px;
+    }
+    .content-portfolio__block2 {
+        left: 0;
+    }
+    .content-portfolio__text {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .content-portfolio__all-text {
+        font-size: 1.2rem;
+        line-height: 17px;
+    }
+    .content__text {
+        font-size: 1.2rem;
+        line-height: 16px;
+        width: 208px;
+    }
+    .content-portfolio__btn {
+        width: 150px;
+        height: 35px;
+        font-size: 0.9rem;
+        line-height: 17px;
+        align-self: center;
+        margin-right: 39px;
+    }
+    .content-portfolio__margin-btn {
+        margin-top: 22px;
+    }
+    /*Что делаем*/
+    .content-work__text {
+        font-size: 1.8rem;
+        line-height: 26px;
+        padding-left: 38px;
+        margin-top: 29px;
+        margin-bottom: 29px;
+    }
+    .content-work__block-title {
+        font-size: 1.1rem;
+        line-height: 16px;
+    }
+    .content-work__simbol {
+        font-size: 3.0rem;
+    }
+    .content-work__simbol-right {
+        font-size: 3.0rem;
+    }
+    .content-work__block-products1 {
+        width: 361px;
+        height: 50px;
+    }
+    .content-work__block {
+        padding-left: 38px;
+    }
+    .content-work__block-all {
+        padding: 0;
+        font-size: 0.7rem;
+        min-height: 50px;
+        line-height: 9px;
+    }
+    .content-work__block-advertisement1 {
+        width: 325px;
+        height: 50px;
+    }
+    .content-work__block-logo1 {
+        width: 295px;
+        min-height: 50px;
+    }
+    .content-work__block-print1 {
+        width: 176px;
+        height: 50px;
+    }
+    .content-work__block-print2 {
+        margin-top: 12px;
+        margin-bottom: 36px;
+        min-height: 50px;
+    }
+    .content-work__block-print2-text p {
+        font-size: 0.7rem;
+        line-height: 9px;
+    }
+    .content-service__content {
+        width: 100%;
+        padding-left: 38px;
+    }
+    .content-service__main-text,
+    .content-service__text-span {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    .content-service__ul {
+        margin-top: 30px;
+    }
+    .content-service__li {
+        margin-bottom: 15px;
+    }
+    .content-service__li-text {
+        font-size: 1.1rem;
+        line-height: 16px;
+    }
+    .content-service__li-block-simbol {
+        margin-right: 13px;
+        font-size: 3.0rem;
+        width: 25px;
+        height: 16px;
+    }
+    /*Новости и акции*/
+    .content-news__block-in-name__title {
+        font-size: 1.8rem;
+        line-height: 26px;
+        margin-bottom: 0;
+    }
+    .content-news__block-in-name__line {
+        height: 40px;
+        border: 1px solid #FFFFFF;
+    }
+    .content-news__block-name {
+        height: 60px;
+    }
+    .content-news__block-article__news-article {
+        margin-top: 30px;
+    }
+    .content-news__block-article__article-all-text {
+        font-size: 1.2rem;
+        line-height: 16px;
+    }
+    .content-news__block-article__article-under-text {
+        font-size: 1.1rem;
+        line-height: 15px;
+    }
+    .content-news__block-article__article-btn {
+        width: 93px;
+        height: 29px;
+        margin-right: 0;
+        align-self: start;
+        margin-top: 18px;
+    }
+    .content-img {
+        margin-top: 30px;
+    }
+    /*Слайдер*/
+    .content-print__blocks-title {
+        margin-bottom: 30px;
+    }
+    .content-print__blocks-span {
+        padding-left: 0;
+    }
+    .conetent-print__slaider-item {
+        min-height: 93px;
+        margin-right: 54px;
+    }
+    .slider-item__img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 2px;
+    }
+    .slick-next {
+        right: -15px;
+        font-size: 3.0rem;
+    }
+    .slick-prev {
+        left: -25px;
+        font-size: 3.0rem;
+    }
+    .content-print {
+        margin-bottom: 30px;
+    }
+    /*Первый поодвал*/
+    .first-footer__first-block {
+        margin-top: 30px;
+    }
+    .first-footer__block__in-block {
+        flex-direction: column;
+        margin-bottom: 11px;
+    }
+    .first-footer__first-block__in-block {
+        margin-bottom: 28px;
+    }
+    .first-footer__block__input {
+        width: 100%;
+        height: 30px;
+        line-height: 14px;
+        letter-spacing: 0.04em;
+        font-size: 1.0rem;
+        margin-right: 0px;
+        padding: 16px 8px;
+        margin-bottom: 13px;
+    }
+    .first-footer__block__btn {
+        width: 100%;
+        height: 30px;
+        font-size: 0.8rem;
+        line-height: 12px;
+    }
+    .first-footer__block__main-text {
+        margin-bottom: 16px;
+    }
+    .first-footer__block__in-block__check__text {
+        font-size: 0.9rem;
+        line-height: 12px;
+    }
+    .mobile-line {
+        border: 1px solid #FFFFFF;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 29px;
+    }
+    /*Карта сайта - подвал*/
+    .first-footer__second-block__text-link {
+        font-size: 1.2rem;
+        line-height: 16px
+    }
+    .first-footer__second-block {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
 
 @media only screen and (max-width: 320px) {}
+
+@media only screen and (min-width: 481px) {
+    .main-head-on {
+        display: none;
+    }
+}

@@ -108,6 +108,7 @@
     
     .content {
         position: relative;
+        /* display: flex; */
         margin-top: 39px;
         width: 100%;
     }
@@ -157,19 +158,21 @@
     }
     
     .content__font-block4 {
-        position: absolute;
         display: flex;
         width: 306px;
         height: 18px;
-        right: 0px;
-        top: 530px;
         background: #5E428C;
     }
     
     .content__head-block__year {
-        margin-left: 1004px;
-        margin-top: 151px;
         font-size: 3.0rem;
+    }
+    
+    .year-block {
+        position: relative;
+        z-index: 10;
+        float: right;
+        top: 490px;
     }
     
     .line {
@@ -203,6 +206,10 @@
         font-size: 1.8rem;
         line-height: 26px;
         letter-spacing: 0.04em;
+    }
+    
+    .another-color {
+        color: #E74B8F;
     }
     
     .content-portfolio__text-span {
@@ -277,7 +284,7 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 2.4rem;
+        font-size: 24px;
         line-height: 29px;
         text-align: justify;
         letter-spacing: 0.04em;
@@ -285,12 +292,16 @@
         display: flex;
         cursor: pointer;
         min-height: 160px;
+        margin-bottom: 0;
     }
     /*products*/
     
     .content-work__block-products2 {
         background-color: #FFFEFE;
         color: #000000;
+        display: flex;
+        align-items: center;
+        padding-left: 0px;
     }
     
     .content-work__block-products1 {
@@ -331,7 +342,7 @@
     .content-work__simbol {
         font-family: 'Manrope', sans-serif;
         position: absolute;
-        font-size: 4.0rem;
+        font-size: 5.0rem;
         margin-left: 10px;
         text-align: center;
     }
@@ -395,7 +406,7 @@
     
     .content-work__simbol-right {
         font-family: 'Manrope', sans-serif;
-        font-size: 4.0rem;
+        font-size: 5.0rem;
         margin-right: 10px;
     }
     
@@ -403,8 +414,6 @@
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
-        font-size: 2.4rem;
-        line-height: 29px;
         align-items: center;
         justify-content: center;
         letter-spacing: 0.04em;
@@ -414,6 +423,8 @@
     .content-work__block-print2-text p {
         width: 135px;
         text-align: center;
+        font-size: 2.4rem;
+        line-height: 29px;
     }
     /* Услуги типографии */
     
@@ -672,7 +683,7 @@
     }
     
     .first-footer__block__main-text {
-        width: 1045px;
+        width: 100%;
         margin-bottom: 61px;
     }
     
