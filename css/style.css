@@ -15,6 +15,69 @@
         /*10px*/
     }
     
+    header {
+        background-color: #FFFFFF;
+    }
+    
+    .mobile-header {
+        background-color: #ffffff;
+    }
+    
+    .nav-menu__link {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    
+    .nav-menu__link:nth-child(1) {
+        margin-top: 10px;
+    }
+    
+    .mobile-navbar {
+        min-height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 24px;
+    }
+    
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 60px;
+        list-style: none;
+    }
+    
+    .nav-branding {
+        font-size: 20px;
+    }
+    
+    .mobile-nav-link {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    
+    .mobile-nav-link:hover {
+        color: #F3EB91;
+        text-decoration: underline;
+    }
+    
+    .hamburger {
+        display: none;
+        cursor: pointer;
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        background-color: #5E428C;
+    }
+    
     .head-text {
         font-family: 'Dela Gothic One';
         color: #1F1F1F;
@@ -230,7 +293,6 @@
     }
     
     .content-portfolio__btn:hover {
-        filter: drop-shadow(0px 4px 20px #A674F9);
         text-decoration: underline;
     }
     
@@ -245,6 +307,10 @@
         width: 735px;
         height: 490px;
         left: 350px;
+    }
+    
+    .content-portfolio__block2__img {
+        width: 100%;
     }
     
     .content__text {
@@ -491,6 +557,7 @@
         display: flex;
         font-size: 4.0rem;
         align-items: center;
+        padding-bottom: 5px;
         justify-content: center;
         margin-right: 51px;
         width: 49px;
@@ -523,6 +590,28 @@
         letter-spacing: 0.04em;
         color: #1F1F1F;
         text-shadow: 0px 0px 20px #FFFFFF;
+    }
+    
+    .button-close-line {
+        display: block;
+        width: 10px;
+        height: 1px;
+        margin: 5px;
+        background-color: #000;
+    }
+    
+    .button-close-line:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .button-close-line:nth-child(2) {
+        transform: translateY(2px) rotate(-45deg);
+    }
+    
+    .button-close {
+        display: block;
+        position: relative;
+        margin-left: 7%;
     }
     /* Секция новости и акции */
     
@@ -599,7 +688,6 @@
         height: 70px;
         margin-top: 40px;
         background: #5E428C;
-        box-shadow: 0px 4px 20px rgba(166, 116, 249, 0.43);
     }
     /* Картинка палитра */
     
@@ -719,11 +807,6 @@
         letter-spacing: 0.04em;
         color: #FFFFFF;
         border: #E74B8F;
-        filter: drop-shadow(0px 4px 20px rgba(231, 75, 143, 0.25));
-    }
-    
-    .first-footer__block__btn:hover {
-        filter: drop-shadow(0px 4px 20px #E74B8F);
     }
     
     .first-footer__block__in-block__check {
@@ -797,13 +880,9 @@
         height: 64px;
         background-color: #5E428C;
         border: 1px solid #ffffff;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.63);
     }
     
     .first-footer__second-block__btn:hover {
-        filter: drop-shadow(0px 4px 20px #FFFFFF);
-        box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.63);
         text-decoration: underline;
     }
     /*Второй подвал*/
