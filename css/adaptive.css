@@ -916,28 +916,6 @@
         display: flex;
         width: 90%;
     }
-    .first-footer__second-block__service a {
-        margin-bottom: 17px;
-        width: 105px;
-    }
-    .first-footer__second-block__about-us a {
-        margin-bottom: 14px;
-    }
-    .first-footer__second-block__btn {
-        width: 123px;
-        height: 31px;
-    }
-    .second-footer {
-        height: 46px;
-        padding-top: 7px;
-    }
-    .second-footer p {
-        width: 216px;
-        margin: 0 auto;
-        font-size: 1.2rem;
-        line-height: 16px;
-        text-align: center;
-    }
     .main-head-off-mobile {
         display: none;
     }
