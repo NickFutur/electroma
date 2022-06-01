@@ -211,13 +211,13 @@
     }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 901px) {
     .main-head-on {
         display: none;
     }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .main-head-off {
         display: none;
     }
@@ -350,7 +350,7 @@
     /*Что делаем*/
     .content-work__text {
         font-size: 3rem;
-        line-height: 26px;
+        line-height: 40px;
         padding-left: 38px;
         margin-top: 29px;
         margin-bottom: 29px;
@@ -505,7 +505,7 @@
         font-size: 3.0rem;
     }
     .slick-prev {
-        left: -25px;
+        left: -20px;
         font-size: 3.0rem;
     }
     .content-print {
@@ -817,7 +817,7 @@
     .content-news__block-article__article-all-text {
         font-size: 0.8rem;
         line-height: 11px;
-        width: 60px;
+        width: 80%;
     }
     .content-news__block-article__article-under-text {
         font-size: 1.1rem;
@@ -856,7 +856,7 @@
         font-size: 3.0rem;
     }
     .slick-prev {
-        left: -25px;
+        left: -20px;
         font-size: 3.0rem;
     }
     .content-print {
