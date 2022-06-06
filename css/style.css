@@ -133,6 +133,7 @@
           letter-spacing: 0.04em;
           color: #F3EB91;
           text-shadow: 1px 0 1px #252525, 0 1px 1px #252525, -1px 0 1px #252525, 0 -1px 1px #252525;
+          cursor: pointer;
       }
       
       .main-head__main-title {
@@ -168,6 +169,7 @@
       .main-head__block-in__link:hover {
           text-decoration: underline;
           color: #F3EB91;
+          font-size: 1.4rem;
       }
       /*Контент часть*/
       
@@ -230,8 +232,6 @@
       .content__font-block4 {
           display: flex;
           width: 15.94vw;
-          min-width: 15.94vw;
-          max-width: 15.94vw;
           height: 18px;
           background: #5E428C;
       }
@@ -254,6 +254,7 @@
           border: 1px solid #F3EB91;
           width: 100%;
           margin-bottom: 720px;
+          background-color: #F3EB91;
       }
       /*Блок Портфолио*/
       
@@ -302,6 +303,7 @@
       
       .content-portfolio__btn:hover {
           text-decoration: underline;
+          font-size: 1.4rem;
       }
       
       .content-portfolio__block1 {
@@ -313,11 +315,7 @@
           position: absolute;
           overflow: hidden;
           z-index: 0;
-          left: 350px;
-      }
-      
-      .content-portfolio__block2__img {
-          width: 100%;
+          right: 0px;
       }
       
       .content__text {
@@ -350,6 +348,40 @@
           display: flex;
           align-items: center;
           padding-left: 130px;
+      }
+      
+      .content-work__img {
+          position: absolute;
+          left: 50%;
+          cursor: pointer;
+          background-color: rgba(255, 255, 255, 0.7);
+          background-position: center;
+          width: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px);
+          height: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px);
+          border-radius: 100px;
+          border-color: rgba(255, 255, 255, 0);
+      }
+      
+      .content-work__img-color-black {
+          background-color: rgba(0, 0, 0, 0.7);
+          border-color: rgba(0, 0, 0, 0);
+          top: calc( (100vw - 480px)/(1920 - 480) * (24 - 5) + 5px);
+      }
+      
+      .content-work__img-color-raspberry {
+          background-color: rgb(231, 75, 143, 0.7);
+          border-color: rgb(231, 75, 143, 0);
+      }
+      
+      .content-work__img-color-purple {
+          position: absolute;
+          cursor: pointer;
+          background-position: center;
+          width: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px);
+          height: calc( (100vw - 480px)/(1920 - 480) * (116 - 43) + 43px);
+          border-radius: 100px;
+          background-color: rgb(94, 66, 140, 0.7);
+          border-color: rgb(94, 66, 140, 0);
       }
       
       .content-work__block-all {
@@ -400,6 +432,7 @@
       }
       
       .content-work__block-advertisement2 {
+          display: flex;
           color: #FFFFFF;
           background-color: #000000;
           position: relative;
@@ -493,7 +526,7 @@
       }
       
       .content-work__block-print2-text p {
-          width: 135px;
+          width: 17%;
           text-align: center;
           font-size: 2.4rem;
           line-height: 29px;
@@ -653,6 +686,7 @@
       .content-news__block-in-name__line {
           height: 124px;
           border: 3px solid #FFFFFF;
+          background-color: #FFFFFF;
       }
       
       .content-news__block-article {
@@ -813,6 +847,13 @@
           letter-spacing: 0.04em;
           color: #FFFFFF;
           border: #E74B8F;
+          padding-left: 10px;
+          padding-right: 10px;
+      }
+      
+      .first-footer__block__btn:hover {
+          font-size: 2.0rem;
+          text-decoration: underline;
       }
       
       .first-footer__block__in-block__check {
@@ -877,6 +918,10 @@
           margin-bottom: 24px;
       }
       
+      .first-footer__second-block__text-link:hover {
+          font-size: 1.8rem;
+      }
+      
       .first-footer__text-width {
           width: 204px;
       }
@@ -890,6 +935,7 @@
       
       .first-footer__second-block__btn:hover {
           text-decoration: underline;
+          font-size: 2.0rem;
       }
       /*Второй подвал*/
       

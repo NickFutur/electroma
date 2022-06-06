@@ -105,6 +105,19 @@ $(document).ready(function() {
         $('#turn-off5').hide();
         $('#turn-on5').fadeIn("slow");
     })
+    $("#turn-off6").css("display", "none");
+    $('#turn-on6').mouseenter(function() {
+        $('#turn-on6').hide();
+        $('#turn-off6').fadeIn("slow");
+    })
+    $('#turn-off6').mouseleave(function() {
+        $('#turn-off6').hide();
+        $('#turn-on6').fadeIn("slow");
+    })
+    $('.button-close').click(function() {
+        $('#turn-off6').hide();
+        $('#turn-on6').fadeIn("slow");
+    })
 
     $(".content-work__block-on").css("display", "none");
     $('.content-work__block-off').mouseenter(function() {

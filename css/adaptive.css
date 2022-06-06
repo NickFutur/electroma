@@ -115,9 +115,6 @@
         width: 100%;
         justify-content: center;
     }
-    .content-portfolio__block2 {
-        left: calc( (100vw - 900px)/(1440 - 900) * (350 - 100) + 100px);
-    }
     .content-work__block-products1 {
         width: 880px;
         height: 160px;
@@ -334,10 +331,6 @@
         padding-left: 39px;
         padding-left: 39px;
     }
-    .content-portfolio__block2 {
-        left: 0;
-        width: 100%;
-    }
     .content-portfolio__text {
         width: 100%;
     }
@@ -357,6 +350,9 @@
         line-height: 17px;
         align-self: center;
         margin-right: 39px;
+    }
+    .content-portfolio__btn:hover {
+        font-size: 1.1rem;
     }
     .content-portfolio__margin-btn {
         margin-top: 22px;
@@ -487,7 +483,7 @@
         line-height: 16px;
     }
     .content-news__block-article__article-btn {
-        width: 93px;
+        width: 100px;
         height: 29px;
         margin-right: 0;
         align-self: start;
@@ -544,6 +540,9 @@
         font-size: 0.8rem;
         line-height: 12px;
     }
+    .first-footer__block__btn:hover {
+        font-size: 1.0rem;
+    }
     .first-footer__block__main-text {
         margin-bottom: 16px;
     }
@@ -562,6 +561,9 @@
     .first-footer__second-block__text-link {
         font-size: 1.2rem;
         line-height: 16px
+    }
+    .first-footer__second-block__text-link:hover {
+        font-size: 1.4rem;
     }
     .first-footer__second-block {
         width: 100%;
@@ -693,10 +695,6 @@
         padding-left: 39px;
         padding-left: 39px;
     }
-    .content-portfolio__block2 {
-        left: 0;
-        width: 100%;
-    }
     .content-portfolio__text {
         width: 90%;
         margin-bottom: 15px;
@@ -705,11 +703,6 @@
         font-size: 1.2rem;
         line-height: 17px;
     }
-    .content__text {
-        font-size: 1.2rem;
-        line-height: 16px;
-        width: 208px;
-    }
     .content-portfolio__btn {
         width: 150px;
         height: 35px;
@@ -717,6 +710,9 @@
         line-height: 17px;
         align-self: center;
         margin-right: 39px;
+    }
+    .content-portfolio__btn:hover {
+        font-size: 1.1rem;
     }
     .content-portfolio__margin-btn {
         margin-top: 22px;
@@ -844,7 +840,7 @@
         line-height: 15px;
     }
     .content-news__block-article__article-btn {
-        width: 93px;
+        width: 100px;
         height: 29px;
         margin-right: 0;
         align-self: start;
