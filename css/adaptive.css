@@ -2,6 +2,9 @@
     .content__font-block4 {
         height: calc( (100vw - 480px)/(1920 - 480) * (18 - 15) + 15px);
     }
+    .wrapper {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
@@ -940,5 +943,68 @@
 @media only screen and (min-width: 481px) {
     .main-head-on-mobile {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1441px) {
+    .wrapper {
+        width: 100%;
+    }
+    .main-head__navigation {
+        width: 100%;
+    }
+    .main-head__block {
+        width: 100%;
+    }
+    .content__font-block1 {
+        max-width: 54.66vw;
+        min-width: 54.66vw;
+        left: 0px;
+        top: 0px;
+    }
+    .content__font-block2 {
+        left: calc( (100vw - 1441px)/(2560 - 1441) * (750 - 250) + 250px);
+        top: 126px;
+    }
+    .content__font-block3 {
+        left: calc( (100vw - 1441px)/(2560 - 1441) * (1160 - 630) + 630px);
+        top: 234px;
+    }
+    .content__font-block4 {
+        width: calc( (100vw - 1441px)/(2560 - 1441) * (850 - 300) + 300px);
+    }
+    .content-work {
+        height: 100%;
+        padding-bottom: 180px;
+    }
+    .content-work__block-products1 {
+        width: 75%;
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-products2 {
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-advertisement1 {
+        width: 68%;
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-advertisement2 {
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-logo1 {
+        width: 61%;
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-logo2 {
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
+    }
+    .content-work__block-print1 {
+        top: calc( (100vw - 1441px)/(2560 - 1441) * (665 - 515) + 515px);
+        width: 29%;
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 266) + 266px);
+    }
+    .content-work__block-print2 {
+        top: calc( (100vw - 1441px)/(2560 - 1441) * (665 - 515) + 515px);
+        min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 266) + 266px);
     }
 }

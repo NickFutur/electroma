@@ -188,7 +188,8 @@
       .content__head-block {
           position: absolute;
           margin-top: 37px;
-          margin-left: 130px;
+          /* margin-left: 360px; */
+          margin-left: calc( (100vw - 1440px)/(1920 - 1440) * (360 - 130) + 130px);
       }
       
       .content__text {
@@ -365,7 +366,7 @@
       .content-work__img-color-black {
           background-color: rgba(0, 0, 0, 0.7);
           border-color: rgba(0, 0, 0, 0);
-          top: calc( (100vw - 480px)/(1920 - 480) * (24 - 5) + 5px);
+          top: calc( (100vw - 480px)/(2560 - 480) * (50 - 10) + 10px);
       }
       
       .content-work__img-color-raspberry {
@@ -389,8 +390,8 @@
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 400;
-          font-size: 24px;
-          line-height: 29px;
+          font-size: calc( (100vw - 1441px)/(2560 - 1441) * (34 - 24) + 24px);
+          line-height: calc( (100vw - 1441px)/(2560 - 1441) * (36 - 29) + 29px);
           text-align: justify;
           letter-spacing: 0.04em;
           width: 100%;
@@ -398,6 +399,7 @@
           cursor: pointer;
           min-height: 160px;
           margin-bottom: 0;
+          align-items: center;
       }
       /*products*/
       
@@ -873,6 +875,10 @@
           font-size: 1.6rem;
           line-height: 22px;
           letter-spacing: 0.02em;
+          color: #FFFFFF;
+      }
+      
+      .first-footer__block__in-block__check__text:hover {
           color: #FFFFFF;
       }
       
