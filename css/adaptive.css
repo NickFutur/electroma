@@ -167,7 +167,8 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .content-work__text {
+    .content-work__text,
+    .content-work__text-service {
         font-size: 5.5rem;
     }
 }
@@ -361,7 +362,8 @@
         margin-top: 22px;
     }
     /*Что делаем*/
-    .content-work__text {
+    .content-work__text,
+    .content-work__text-service {
         font-size: 3rem;
         line-height: 40px;
         padding-left: 38px;
@@ -721,7 +723,8 @@
         margin-top: 22px;
     }
     /*Что делаем*/
-    .content-work__text {
+    .content-work__text,
+    .content-work__text-service {
         font-size: 1.8rem;
         line-height: 26px;
         padding-left: 38px;
@@ -978,33 +981,47 @@
         padding-bottom: 180px;
     }
     .content-work__block-products1 {
-        width: 75%;
+        width: 67%;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
     .content-work__block-products2 {
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
     .content-work__block-advertisement1 {
-        width: 68%;
+        width: 62%;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
     .content-work__block-advertisement2 {
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
+    .content-work__block-logo {
+        padding-left: 0;
+    }
     .content-work__block-logo1 {
-        width: 61%;
+        width: 57%;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
     .content-work__block-logo2 {
+        padding-left: 0;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (250 - 160) + 160px);
     }
     .content-work__block-print1 {
         top: calc( (100vw - 1441px)/(2560 - 1441) * (665 - 515) + 515px);
-        width: 29%;
+        width: 37%;
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 266) + 266px);
     }
     .content-work__block-print2 {
         top: calc( (100vw - 1441px)/(2560 - 1441) * (665 - 515) + 515px);
         min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 266) + 266px);
+    }
+    .content-work__text,
+    .content-work__block {
+        padding-left: calc( (100vw - 1440px)/(1920 - 1440) * (360 - 130) + 130px);
+    }
+    .content-work__block-print1 {
+        justify-content: flex-end;
+    }
+    .content-work__block-title-width {
+        padding-right: calc( (100vw - 1440px)/(1920 - 1440) * (530 - 290) + 290px);
     }
 }

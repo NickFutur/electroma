@@ -144,6 +144,10 @@
           background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
       }
       
+      .phone {
+          cursor: pointer;
+      }
+      
       .main-head__navigation {
           display: flex;
           align-items: center;
@@ -337,6 +341,15 @@
       }
       
       .content-work__text {
+          font-size: 6.4rem;
+          line-height: 93px;
+          letter-spacing: 0.04em;
+          padding-left: 130px;
+          margin-bottom: 74px;
+          margin-top: 52px;
+      }
+      
+      .content-work__text-service {
           font-size: 6.4rem;
           line-height: 93px;
           letter-spacing: 0.04em;
