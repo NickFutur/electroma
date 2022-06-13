@@ -23,9 +23,9 @@
 
 .heading-font-block1 {
     margin-top: 110px;
-    max-height: 20.63vw;
+    max-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 297) + 297px);
     max-width: 49.31vw;
-    min-height: 20.63vw;
+    min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 297) + 297px);
     min-width: 49.31vw;
     background-color: #F3EB91;
     position: absolute;
@@ -35,22 +35,22 @@
 }
 
 .heading-font-block2 {
-    max-height: 23.40vw;
+    max-height: 337px;
     max-width: 34.72vw;
-    min-height: 23.40vw;
+    min-height: 337px;
     min-width: 34.72vw;
     background-color: #E74B8F;
     position: absolute;
     display: flex;
-    left: 330px;
+    left: 195px;
     bottom: 0px;
 }
 
 .heading-font-block3 {
-    max-height: 10.14vw;
-    max-width: 10.14vw;
-    min-height: 10.14vw;
-    min-width: 10.14vw;
+    max-height: 146px;
+    max-width: 146px;
+    min-height: 146px;
+    min-width: 146px;
     background-color: #67D3F7;
     position: absolute;
     display: flex;
@@ -67,8 +67,8 @@
 }
 
 .heading-block__text {
-    font-size: calc( (100vw - 480px)/(1440 - 480) * (64 - 18) + 18px);
-    line-height: calc( (100vw - 480px)/(1440 - 480) * (92.67 - 26.06) + 26.06px);
+    font-size: 6.4rem;
+    line-height: 92.67px;
 }
 
 
@@ -141,6 +141,15 @@
     margin-top: 43px;
 }
 
+.side-menu__arrow {
+    font-family: 'Manrope', sans-serif;
+    color: #FFFFFF;
+    position: fixed;
+    font-size: 4.0rem;
+    margin-left: 10px;
+    margin-top: 247px;
+}
+
 .side-menu__block2 {
     min-height: 800px;
     min-width: 360px;
@@ -150,8 +159,32 @@
     padding-right: 30px;
 }
 
+.side-menu__circle1 {
+    position: fixed;
+    width: 34px;
+    height: 34px;
+    background-color: #E74B8F;
+    border-radius: 34px;
+    margin-left: 5px;
+    margin-top: 4px;
+    z-index: 0;
+}
+
+.side-menu__line {
+    position: absolute;
+    right: 0;
+    width: 209px;
+    height: 14px;
+    background-color: #E74B8F;
+    margin-left: 5px;
+    margin-top: 15px;
+    z-index: 0;
+}
+
 .side-menu__links {
     list-style-type: none;
+    position: relative;
+    z-index: 1;
 }
 
 .side-menu__link {
