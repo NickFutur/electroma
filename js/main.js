@@ -160,3 +160,18 @@ $(document).ready(function() {
         $('.content-work__block-off-print').fadeIn("fast");
     })
 });
+
+
+$("#side-menu__block2").css("display", "none");
+$('#side-menu__block1').mouseenter(function() {
+    $('#side-menu__block1').hide();
+    $('#side-menu__block2').fadeIn("slow");
+})
+$('#side-menu__block2').mouseleave(function() {
+    $('#side-menu__block2').hide();
+    $('#side-menu__block1').fadeIn("slow");
+})
+$('.side-menu__link').click(function() {
+    $('#side-menu__block2').hide();
+    $('#side-menu__block1').fadeIn("slow");
+})

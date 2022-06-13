@@ -1,0 +1,198 @@
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 0.625em;
+    /*10px*/
+}
+
+.heading-block {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 1180px;
+    margin: 0 auto;
+    height: 437px;
+    margin-top: 34px;
+    margin-bottom: 44px;
+}
+
+.heading-font-block1 {
+    margin-top: 110px;
+    max-height: 20.63vw;
+    max-width: 49.31vw;
+    min-height: 20.63vw;
+    min-width: 49.31vw;
+    background-color: #F3EB91;
+    position: absolute;
+    display: flex;
+    left: 0px;
+    top: 0px;
+}
+
+.heading-font-block2 {
+    max-height: 23.40vw;
+    max-width: 34.72vw;
+    min-height: 23.40vw;
+    min-width: 34.72vw;
+    background-color: #E74B8F;
+    position: absolute;
+    display: flex;
+    left: 330px;
+    bottom: 0px;
+}
+
+.heading-font-block3 {
+    max-height: 10.14vw;
+    max-width: 10.14vw;
+    min-height: 10.14vw;
+    min-width: 10.14vw;
+    background-color: #67D3F7;
+    position: absolute;
+    display: flex;
+    right: 0;
+    bottom: 0px;
+}
+
+.heading-block__text-block {
+    position: relative;
+    z-index: 3;
+    float: left;
+    margin-left: 80px;
+    margin-bottom: 28px;
+}
+
+.heading-block__text {
+    font-size: calc( (100vw - 480px)/(1440 - 480) * (64 - 18) + 18px);
+    line-height: calc( (100vw - 480px)/(1440 - 480) * (92.67 - 26.06) + 26.06px);
+}
+
+
+/* Хлебные крошки */
+
+.bred-nav {
+    position: relative;
+    z-index: 3;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.bred-nav__links {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.bred-nav__link {
+    padding-right: 5px;
+}
+
+.bred-nav__link a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 27px;
+    color: #000000;
+}
+
+.bred-nav__link a:hover {
+    color: #000000;
+}
+
+.bred-nav__link-dot {
+    padding-right: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+
+/* Боковое меню */
+
+.side-menu {
+    position: fixed;
+    top: 110px;
+    z-index: 3;
+}
+
+.side-menu__block1 {
+    min-height: 800px;
+    min-width: 44px;
+    max-height: 800px;
+    max-width: 44px;
+    background-color: #000000;
+}
+
+.side-menu__circle {
+    position: fixed;
+    width: 34px;
+    height: 34px;
+    background-color: #E74B8F;
+    border-radius: 34px;
+    margin-left: 5px;
+    margin-top: 43px;
+}
+
+.side-menu__block2 {
+    min-height: 800px;
+    min-width: 360px;
+    background-color: #000000;
+    padding-top: 40px;
+    padding-left: 44px;
+    padding-right: 30px;
+}
+
+.side-menu__links {
+    list-style-type: none;
+}
+
+.side-menu__link {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.side-menu__link:hover {
+    color: #FFFFFF;
+}
+
+
+/* Контент */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.main-content__title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.main-content__text {
+    font-weight: 400;
+    padding-left: 10%;
+    margin: 0;
+    margin-bottom: 28px;
+}

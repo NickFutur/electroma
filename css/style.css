@@ -141,7 +141,13 @@
           line-height: 35px;
           letter-spacing: 0.04em;
           padding-top: 5px;
+          text-decoration: none;
           background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+      }
+      
+      .main-head__main-title:hover {
+          background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+          color: #000000;
       }
       
       .phone {
@@ -335,7 +341,7 @@
       .content-work {
           display: flex;
           position: relative;
-          height: 861px;
+          min-height: 861px;
           flex-direction: column;
           background-color: #F3EB91;
       }
@@ -379,7 +385,6 @@
       .content-work__img-color-black {
           background-color: rgba(0, 0, 0, 0.7);
           border-color: rgba(0, 0, 0, 0);
-          top: calc( (100vw - 480px)/(2560 - 480) * (50 - 10) + 10px);
       }
       
       .content-work__img-color-raspberry {
@@ -398,8 +403,10 @@
           border-color: rgb(94, 66, 140, 0);
       }
       
-      .content-work__block-all {
+      .content-work__block-all-white {
+          color: #ffffff;
           padding: 0;
+          list-style-type: none;
           font-family: 'Montserrat';
           font-style: normal;
           font-weight: 400;
@@ -408,20 +415,53 @@
           text-align: justify;
           letter-spacing: 0.04em;
           width: 100%;
-          display: flex;
           cursor: pointer;
           min-height: 160px;
           margin-bottom: 0;
           align-items: center;
+          text-decoration: none;
+      }
+      
+      .content-work__block-all-white:hover {
+          color: #ffffff;
+      }
+      
+      .content-work__block-all1 {
+          padding: 0;
+          list-style-type: none;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 400;
+          font-size: calc( (100vw - 1441px)/(2560 - 1441) * (34 - 24) + 24px);
+          line-height: calc( (100vw - 1441px)/(2560 - 1441) * (36 - 29) + 29px);
+          text-align: justify;
+          letter-spacing: 0.04em;
+          width: 100%;
+          cursor: pointer;
+          min-height: 160px;
+          margin-bottom: 0;
+          align-items: center;
+          text-decoration: none;
+          color: #000000;
+      }
+      
+      .content-work__block-all1:hover {
+          color: #000000;
       }
       /*products*/
       
-      .content-work__block-products2 {
-          background-color: #FFFEFE;
-          color: #000000;
+      .content-work__block-main-products2 {
           display: flex;
           align-items: center;
+          justify-content: center;
+          min-height: 160px;
+          background-color: #FFFEFE;
+      }
+      
+      .content-work__block-products2 {
+          color: #000000;
           padding-left: 0px;
+          text-align: justify;
       }
       
       .content-work__block-products1 {
@@ -452,6 +492,7 @@
           background-color: #000000;
           position: relative;
           z-index: 3;
+          align-items: center;
       }
       
       .content-work__block-title {
@@ -531,20 +572,13 @@
       }
       
       .content-work__block-print2-text {
-          font-family: 'Montserrat';
-          font-style: normal;
-          font-weight: 400;
           align-items: center;
           justify-content: center;
-          letter-spacing: 0.04em;
-          color: #FFFFFF;
       }
       
-      .content-work__block-print2-text p {
+      .content-work__block-products2-print {
           width: 17%;
           text-align: center;
-          font-size: 2.4rem;
-          line-height: 29px;
       }
       /* Услуги типографии */
       
