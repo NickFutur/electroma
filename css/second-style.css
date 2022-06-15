@@ -129,6 +129,7 @@
     max-height: 800px;
     max-width: 44px;
     background-color: #000000;
+    cursor: pointer;
 }
 
 .side-menu__circle {
@@ -200,6 +201,10 @@
 
 .side-menu__link:hover {
     color: #FFFFFF;
+}
+
+.card {
+    /* clip-path: inset; */
 }
 
 
