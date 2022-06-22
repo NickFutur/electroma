@@ -3,7 +3,7 @@
 <rect width="374.003" height="344.993" fill="url(#paint0_linear_107_59)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_107_59" transform="translate(-0.189663) scale(0.001347)"/>
+<use xlink:href="#image0_107_59" transform="translate(-0.189663) scale(0.001347 0.00146413)"/>
 </pattern>
 <linearGradient id="paint0_linear_107_59" x1="50.8644" y1="173.074" x2="374.003" y2="173.074" gradientUnits="userSpaceOnUse">
 <stop stop-color="white"/>

@@ -251,15 +251,16 @@
     }
     .hamburger {
         display: block;
-    }
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
+        margin-left: 15px;
     }
     .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        transform: translateY(6px) rotate(45deg);
     }
     .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-2px) rotate(-45deg);
     }
     .hamburger.active .bar:nth-child(4) {
         opacity: 0;
@@ -267,7 +268,7 @@
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 52px;
         gap: 0;
         flex-direction: column;
         background-color: #5E428C;
@@ -281,6 +282,7 @@
         margin: 16px 0;
     }
     .nav-menu.active {
+        top: 52px;
         left: 0;
         height: 100vh;
         justify-content: flex-start;
@@ -324,7 +326,7 @@
     }
     .content-portfolio {
         margin-top: calc( (100vw - 480px)/(900 - 480) * (450 - 300) + 300px);
-        margin-bottom: 422px;
+        margin-bottom: 622px;
         width: 100%;
         justify-content: flex-start;
     }
@@ -333,33 +335,31 @@
         flex-direction: column;
         margin-top: 30px;
         padding-left: 39px;
-        padding-left: 39px;
     }
     .content-portfolio__text {
         width: 100%;
     }
     .content-portfolio__all-text {
-        font-size: 1.2rem;
-        line-height: 17px;
+        font-size: 1.6rem;
+        line-height: 26px;
     }
     .content__text {
-        font-size: 1.2rem;
-        line-height: 16px;
-        width: 208px;
+        font-size: 1.6rem;
+        line-height: 26px;
+        width: 308px;
     }
     .content-portfolio__btn {
-        width: 150px;
-        height: 35px;
-        font-size: 0.9rem;
+        width: 200px;
+        height: 45px;
+        font-size: 1.2rem;
         line-height: 17px;
-        align-self: center;
         margin-right: 39px;
     }
     .content-portfolio__btn:hover {
-        font-size: 1.1rem;
+        font-size: 1.4rem;
     }
     .content-portfolio__margin-btn {
-        margin-top: 22px;
+        margin-top: 90px;
     }
     /*Что делаем*/
     .content-work__text,
@@ -478,6 +478,7 @@
     }
     .content-news__block-name {
         height: 60px;
+        margin-top: 15px;
     }
     .content-news__block-article__news-article {
         margin-top: 30px;
@@ -567,6 +568,11 @@
         margin-bottom: 29px;
     }
     /*Карта сайта - подвал*/
+    .main-head__main-title-footer a {
+        font-size: 2rem;
+        line-height: 20px;
+        text-align: center;
+    }
     .first-footer__second-block__text-link {
         font-size: 1.2rem;
         line-height: 16px
@@ -623,9 +629,16 @@
         font-size: 1.4rem;
         line-height: 20px;
         text-align: center;
+        width: 160px;
     }
     .main-head__navigation {
         height: 24px;
+    }
+    .nav-menu {
+        top: 56px;
+    }
+    .nav-menu.active {
+        top: 56px;
     }
     .main-head__navigation__block {
         justify-content: center;
@@ -691,18 +704,16 @@
     }
     .content-portfolio {
         margin-top: 250px;
-        margin-bottom: 422px;
+        margin-bottom: 435px;
     }
     .content-portfolio {
         width: 100%;
         justify-content: flex-start;
     }
-    .content-portfolio__block1 {
-        display: flex;
-        flex-direction: column;
-        margin-top: 30px;
-        padding-left: 39px;
-        padding-left: 39px;
+    .content__text {
+        font-size: 1.2rem;
+        line-height: 16px;
+        width: 208px;
     }
     .content-portfolio__text {
         width: 90%;
@@ -742,6 +753,9 @@
     }
     .content-work__simbol {
         font-size: 3.0rem;
+    }
+    .simbol-top {
+        top: 17px;
     }
     .content-work__simbol-right {
         font-size: 3.0rem;
@@ -852,9 +866,6 @@
         height: 40px;
         border: 1px solid #FFFFFF;
     }
-    .content-news__block-name {
-        height: 60px;
-    }
     .content-news__block-article__news-article {
         margin-top: 30px;
     }
@@ -878,11 +889,11 @@
         margin-top: 30px;
     }
     .content-news__block-in-article {
-        margin-left: 15%;
+        margin-left: 11%;
     }
     /*Слайдер*/
     .content-print__blocks-title {
-        margin-bottom: 30px;
+        margin-left: 5%;
     }
     .content-print__blocks-span {
         padding-left: 0;
@@ -907,7 +918,7 @@
         margin-bottom: 11px;
     }
     .first-footer__first-block__in-block {
-        margin-bottom: 28px;
+        width: 80%;
     }
     .first-footer__block__input {
         width: 100%;
@@ -934,12 +945,14 @@
         margin-bottom: 0;
     }
     .mobile-line {
-        border: 1px solid #FFFFFF;
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 29px;
+        width: 80%;
     }
     /*Карта сайта - подвал*/
+    .main-head__main-title-footer a {
+        font-size: 1.4rem;
+        line-height: 20px;
+        text-align: center;
+    }
     .first-footer__second-block__text-link {
         font-size: 1.2rem;
         line-height: 16px
@@ -950,7 +963,7 @@
     }
     .main-head-on-footer {
         display: flex;
-        width: 90%;
+        width: 80%;
     }
     .main-head-off-mobile {
         display: none;
@@ -960,6 +973,9 @@
 @media only screen and (max-width: 375px) {
     .button-close {
         margin-left: 4%;
+    }
+    .content-news__block-in-name {
+        width: 90%;
     }
 }
 

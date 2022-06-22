@@ -89,6 +89,7 @@
       .head-text {
           font-family: 'Dela Gothic One';
           color: #1F1F1F;
+          text-decoration: none;
       }
       
       .all-text {
@@ -1004,4 +1005,24 @@
       .slider {
           height: 300px;
           width: 1180px;
+      }
+      
+      .main-head__main-title-footer a {
+          font-size: 2.4rem;
+          /* line-height: 35px; */
+          letter-spacing: 0.04em;
+          padding-top: 5px;
+          text-decoration: none;
+      }
+      
+      .main-head__main-title-footer {
+          background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+      }
+      
+      .main-head__main-title-footer:hover {
+          background: linear-gradient( to bottom, hsl(55, 80%, 76%) 0%, hsla(55, 80%, 76%) 7.4%, hsla(55, 80%, 76%) 15.3%, hsla(55, 80%, 76%) 23.4%, hsla(55, 80%, 76%) 31.6%, hsla(55, 80%, 76%) 39.9%, hsla(55, 80%, 76%) 48.2%, hsla(55, 80%, 76%) 56.2%, hsla(55, 80%, 76%) 64%, hsla(0, 0%, 100%) 71.3%, hsla(0, 0%, 100%) 78.1%, hsla(0, 0%, 100%) 84.2%, hsla(0, 0%, 100%) 89.6%, hsla(0, 0%, 100%) 94.1%, hsla(0, 0%, 100%) 97.6%, hsla(0, 0%, 100%) 100%);
+      }
+      
+      .main-head__main-title-footer:hover a {
+          color: #000000;
       }
