@@ -120,6 +120,7 @@
 .side-menu {
     position: fixed;
     top: 110px;
+    bottom: 0;
     z-index: 3;
 }
 
