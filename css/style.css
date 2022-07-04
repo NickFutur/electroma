@@ -157,6 +157,7 @@
       
       .phone {
           cursor: pointer;
+          padding-right: 20px;
       }
       
       .main-head__navigation {
