@@ -732,11 +732,13 @@
       }
       
       .content-news__block-in-name__title {
+          font-family: 'Dela Gothic One';
           font-size: 6.4rem;
           line-height: 93px;
           letter-spacing: 0.04em;
           color: #FFFFFF;
           width: 435px;
+          text-decoration: none;
       }
       
       .content-news__block-in-name__line {

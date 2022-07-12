@@ -153,12 +153,13 @@
 }
 
 .side-menu__block2 {
-    min-height: 800px;
-    min-width: 360px;
+    height: 800px;
+    width: 360px;
     background-color: #000000;
     padding-top: 40px;
     padding-left: 44px;
     padding-right: 30px;
+    overflow: auto;
 }
 
 .side-menu__circle1 {
