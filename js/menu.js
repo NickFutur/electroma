@@ -30,3 +30,14 @@ document.querySelectorAll(".mobile-nav-link").forEach(n => n.addEventListener("c
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }))
+
+// Проблема с фиксацией блока
+// window.onscroll = function showHeaderTop() {
+//     var header = document.querySelector('.main-header-block');
+//     if (window.pageYOffset > 100) {
+//         header.classList.add('.fixed-header')
+//              console.log(header)
+//     } else {
+//         header.classList.remove('.fixed-header')
+//     }
+// }
