@@ -32,12 +32,14 @@ document.querySelectorAll(".mobile-nav-link").forEach(n => n.addEventListener("c
 }))
 
 // Проблема с фиксацией блока
-// window.onscroll = function showHeaderTop() {
-//     var header = document.querySelector('.main-header-block');
-//     if (window.pageYOffset > 100) {
-//         header.classList.add('.fixed-header')
-//              console.log(header)
-//     } else {
-//         header.classList.remove('.fixed-header')
-//     }
-// }
+window.onscroll = function showHeaderTop() {
+    var header = document.querySelector('.side-menu');
+    if (window.pageYOffset > 100) {
+        // document.sideMenu.classList.remove('.side-menu')
+        sideMenu.classList.add('.side-menu-change')
+
+    } else {
+        // document.sideMenu.classList.remove('.side-menu-change')
+        sideMenu.classList.add('.side-menu')
+    }
+}

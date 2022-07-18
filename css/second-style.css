@@ -124,17 +124,29 @@
     z-index: 3;
 }
 
+
+/* Нужно для этого класса создать условие */
+
+.side-menu-off {
+    position: absolute;
+    z-index: 3;
+}
+
+.side-menu-change {
+    position: absolute;
+}
+
 .side-menu__block1 {
-    min-height: 800px;
-    min-width: 44px;
-    max-height: 800px;
-    max-width: 44px;
+    height: 80vh;
+    width: 44px;
+    /* max-height: 800px;
+    max-width: 44px; */
     background-color: #000000;
     cursor: pointer;
 }
 
 .side-menu__circle {
-    position: fixed;
+    position: absolute;
     width: 34px;
     height: 34px;
     background-color: #E74B8F;
@@ -146,14 +158,14 @@
 .side-menu__arrow {
     font-family: 'Manrope', sans-serif;
     color: #FFFFFF;
-    position: fixed;
+    position: absolute;
     font-size: 4.0rem;
     margin-left: 10px;
     margin-top: 247px;
 }
 
 .side-menu__block2 {
-    height: 800px;
+    height: 80vh;
     width: 360px;
     background-color: #000000;
     padding-top: 40px;
@@ -163,7 +175,7 @@
 }
 
 .side-menu__circle1 {
-    position: fixed;
+    position: absolute;
     width: 34px;
     height: 34px;
     background-color: #E74B8F;
