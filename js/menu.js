@@ -1,13 +1,14 @@
+// Меню гамбургер
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu")
     // const body = document.body;
-
-// let disableScroll = function() {
-//     let pagePosition = window.scrollY;
-//     document.body.classList.add('disable-scroll');
-//     document.body.dataset.position = pagePosition;
-//     document.body.style.top = -pagePosition + 'px';
-// }
+    // Попытка сделать фиксированный блок header
+    // let disableScroll = function() {
+    //     let pagePosition = window.scrollY;
+    //     document.body.classList.add('disable-scroll');
+    //     document.body.dataset.position = pagePosition;
+    //     document.body.style.top = -pagePosition + 'px';
+    // }
 
 // let enableScroll = function() {
 //     let pagePosition = parseInt(document.body.dataset.position, 10);
@@ -31,7 +32,7 @@ document.querySelectorAll(".mobile-nav-link").forEach(n => n.addEventListener("c
     navMenu.classList.remove("active");
 }))
 
-// Проблема с фиксацией блока
+// Проблема с фиксацией блока бокового меню
 window.onscroll = function showHeaderTop() {
     var header = document.querySelector('.side-menu');
     if (window.pageYOffset > 100) {

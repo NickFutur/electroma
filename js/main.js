@@ -36,6 +36,7 @@ $(document).ready(function() {
     });
 });
 
+// Окрытие и закрытие вкладок тему "Услуги типографии"
 $(document).ready(function() {
     $("#turn-off1").css("display", "none");
     $('#turn-on1').mouseenter(function() {
@@ -119,6 +120,8 @@ $(document).ready(function() {
         $('#turn-on6').fadeIn("slow");
     })
 
+    // Окрытие и закрытие вкладок тему "Что мы делаем"
+
     $(".content-work__block-on").css("display", "none");
     $('.content-work__block-off').mouseenter(function() {
         $('.content-work__block-off').hide();
@@ -161,22 +164,25 @@ $(document).ready(function() {
     })
 });
 
-
+// Боковое меню при наведении и клике на него
 $("#side-menu__block2").css("display", "none");
 $('#side-menu__block1').click(function() {
-    $('#side-menu__block1').hide();
-    $('#side-menu__block2').fadeIn("slow");
-})
-$('#side-menu__block1').mouseenter(function() {
+        $('#side-menu__block1').hide();
+        $('#side-menu__block2').fadeIn("slow");
+    })
+    // движение стрелочки при наведении
+$('#side-menu__block1').mouseover(function() {
     $(".side-menu__arrow").animate({
         'margin-top': '28px'
     }, 1500);
 })
-$('#side-menu__block1').mouseleave(function() {
-    $(".side-menu__arrow").animate({
-        'margin-top': '247px'
-    }, 1500);
-})
+$('#side-menu__block1').mouseout(function() {
+        $(".side-menu__arrow").animate({
+            'margin-top': '247px'
+        }, 1500);
+        $(".side-menu__arrow").stop(false, false); //небольшой баг при срабатывании, иногда требуется открыть меню для того, чтобы стрелка опустилась в низ
+    })
+    // скрывает меню при исчезании наведения на меню
 $('#side-menu__block2').mouseleave(function() {
     $('#side-menu__block2').hide();
     $('#side-menu__block1').fadeIn("slow");
@@ -188,7 +194,7 @@ $('.side-menu__link').click(function() {
 
 
 
-
+// Боковое меню движение круглишка и линии
 $('.side-menu-link1').mouseenter(function() {
     $('.side-menu__circle1').animate({
         'margin-top': '4px'
