@@ -145,6 +145,9 @@
     cursor: pointer;
 }
 
+
+/* Боковое меню маркеры */
+
 .side-menu__circle {
     position: absolute;
     width: 34px;
@@ -185,6 +188,229 @@
     z-index: 0;
 }
 
+.side-menu__link:hover:before,
+.side-menu__link1:hover:before,
+.side-menu__link2:hover:before,
+.side-menu__link3:hover:before,
+.side-menu__link4:hover:before,
+.side-menu__link5:hover:before,
+.side-menu__link6:hover:before,
+.side-menu__link7:hover:before,
+.side-menu__link8:hover:before,
+.side-menu__link9:hover:before,
+.side-menu__link10:hover:before,
+.side-menu__link11:hover:before,
+.side-menu__link12:hover:before,
+.side-menu__link13:hover:before {
+    content: '';
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-color: #E74B8F;
+    border-radius: 34px;
+    margin-left: -15px;
+    margin-top: 4px;
+    z-index: 0;
+}
+
+
+/* Линии для меню */
+
+.side-menu__link:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    background-color: #E74B8F;
+    width: 0;
+    margin-top: 15px;
+    height: 14px;
+    transition: width 1s ease;
+    z-index: 0;
+}
+
+.side-menu__link-double:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    background-color: #E74B8F;
+    width: 0;
+    margin-top: -20px;
+    height: 14px;
+    transition: width 1s ease;
+    z-index: 0;
+}
+
+.side-menu__link-double:hover:after {
+    transition-delay: 500ms;
+}
+
+.side-menu__link:hover:after {
+    transition-delay: 500ms;
+    margin-top: 15px;
+}
+
+.side-menu__link-double1:hover:after {
+    width: 174px;
+    margin-top: -20px;
+}
+
+.side-menu__link2:hover:after {
+    width: 20px;
+}
+
+.side-menu__link3:hover:after {
+    width: 125px;
+}
+
+.side-menu__link4:hover:after {
+    width: 30px;
+}
+
+.side-menu__link5:hover:after {
+    width: 153px;
+}
+
+.side-menu__link6:hover:after {
+    width: 142px;
+}
+
+.side-menu__link-double7:hover:after {
+    width: 110px;
+    margin-top: -20px;
+}
+
+.side-menu__link8:hover:after {
+    width: 15px;
+    margin-top: -20px;
+}
+
+.side-menu__link9:hover:after {
+    width: 137px;
+}
+
+.side-menu__link10:hover:after {
+    width: 68px;
+}
+
+.side-menu__link-double11:hover:after {
+    width: 80px;
+    margin-top: -20px;
+}
+
+.side-menu__link12:hover:after {
+    width: 50px;
+}
+
+.side-menu__link-double13:hover:after {
+    width: 15px;
+    margin-top: -20px;
+}
+
+.side-menu__link-double14:hover:after {
+    width: 75px;
+    margin-top: -20px;
+}
+
+.side-menu__link15:hover:after {
+    width: 160px;
+}
+
+.side-menu__link16:hover:after {
+    width: 135px;
+}
+
+.side-menu__link17:hover:after {
+    width: 140px;
+}
+
+.side-menu__link18:hover:after {
+    width: 155px;
+}
+
+.side-menu__link19:hover:after {
+    width: 145px;
+}
+
+.side-menu__link20:hover:after {
+    width: 140px;
+}
+
+.side-menu__link21:hover:after {
+    width: 140px;
+}
+
+.side-menu__link22:hover:after {
+    width: 142px;
+}
+
+.side-menu__link23:hover:after {
+    width: 155px;
+}
+
+.side-menu__link24:hover:after {
+    width: 120px;
+}
+
+.side-menu__link25:hover:after {
+    width: 142px;
+}
+
+.side-menu__link26:hover:after {
+    width: 193px;
+}
+
+.side-menu__link27:hover:after {
+    width: 175px;
+}
+
+.side-menu__link28:hover:after {
+    width: 40px;
+}
+
+.side-menu__link29:hover:after {
+    width: 140px;
+}
+
+.side-menu__link30:hover:after {
+    width: 175px;
+}
+
+.side-menu__link31:hover:after {
+    width: 205px;
+}
+
+.side-menu__link-double32:hover:after {
+    width: 95px;
+    margin-top: -20px;
+}
+
+.side-menu__link-double33:hover:after {
+    width: 95px;
+    margin-top: -20px;
+}
+
+.side-menu__link-double34:hover:after {
+    width: 95px;
+    margin-top: -20px;
+}
+
+.side-menu__text-link {
+    font-family: 'Dela Gothic One';
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 35px;
+    letter-spacing: 0.04em;
+    z-index: 10;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.side-menu__text-link:hover {
+    color: #FFFFFF;
+}
+
 .side-menu__line {
     position: absolute;
     right: 0;
@@ -199,7 +425,7 @@
 .side-menu__links {
     list-style-type: none;
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 .side-menu__link {
@@ -209,16 +435,13 @@
     font-size: 2.4rem;
     line-height: 35px;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    z-index: 10;
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .side-menu__link:hover {
     color: #FFFFFF;
-}
-
-.card {
-    /* clip-path: inset; */
 }
 
 
