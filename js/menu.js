@@ -32,15 +32,19 @@ document.querySelectorAll(".mobile-nav-link").forEach(n => n.addEventListener("c
     navMenu.classList.remove("active");
 }))
 
-// Проблема с фиксацией блока бокового меню
-window.onscroll = function showHeaderTop() {
-    var header = document.querySelector('.side-menu');
-    if (window.pageYOffset > 100) {
-        // document.sideMenu.classList.remove('.side-menu')
-        sideMenu.classList.add('.side-menu-change')
+document.querySelectorAll('.side-menu__block2').forEach(el => {
+    new SimpleBar(el)
+});
 
-    } else {
-        // document.sideMenu.classList.remove('.side-menu-change')
-        sideMenu.classList.add('.side-menu')
-    }
-}
+// Проблема с фиксацией блока бокового меню
+// window.onscroll = function showHeaderTop() {
+//     var header = document.querySelector('.side-menu');
+//     if (window.pageYOffset > 100) {
+//         document.sideMenu.classList.remove('.side-menu')
+//         sideMenu.classList.add('.side-menu-change')
+
+//     } else {
+//          document.sideMenu.classList.remove('.side-menu-change')
+//         sideMenu.classList.add('.side-menu')
+//     }
+// }

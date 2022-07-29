@@ -188,6 +188,11 @@ $('#side-menu__block2').mouseleave(function() {
     $('#side-menu__block1').fadeIn("slow");
 })
 $('.side-menu__link').click(function() {
-    $('#side-menu__block2').hide();
-    $('#side-menu__block1').fadeIn("slow");
+        $('#side-menu__block2').hide();
+        $('#side-menu__block1').fadeIn("slow");
+    })
+    // скрытие и открытие бокового меню по закрывающему крестику
+$('.button-close-menu').click(function() {
+    $('.side-menu__block2').hide();
+    $('.side-menu__block1').fadeIn("slow");
 })

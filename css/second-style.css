@@ -171,7 +171,7 @@
     height: 80vh;
     width: 360px;
     background-color: #000000;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 44px;
     padding-right: 30px;
     overflow: auto;
@@ -279,8 +279,8 @@
     margin-top: -20px;
 }
 
-.side-menu__link8:hover:after {
-    width: 15px;
+.side-menu__link-double8:hover:after {
+    width: 150px;
     margin-top: -20px;
 }
 
@@ -426,6 +426,7 @@
     list-style-type: none;
     position: relative;
     z-index: 10;
+    margin-top: 20px;
 }
 
 .side-menu__link {
@@ -442,6 +443,34 @@
 
 .side-menu__link:hover {
     color: #FFFFFF;
+}
+
+.button-close-menu {
+    display: block;
+    position: relative;
+    float: right;
+    top: 0;
+    cursor: pointer;
+    z-index: 20;
+    /* top: 20px;
+    right: 20px; */
+}
+
+.button-close-menu-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.button-close-menu-line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.button-close-menu-line:nth-child(2) {
+    transform: translateY(1px) rotate(-45deg);
 }
 
 
