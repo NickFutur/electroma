@@ -48,6 +48,12 @@
             }
         }
         
+        @media only screen and (max-width: 900px) {
+            .heading-font-block1 {
+                margin-top: -5px;
+            }
+        }
+        
         @media only screen and (min-width: 769px) {
             .side-menu-on {
                 display: none;
@@ -63,7 +69,7 @@
             }
             .heading-font-block1 {
                 max-width: 36.98vw;
-                margin-top: 110px;
+                margin-top: 0px;
                 max-height: calc( (100vw - 320px)/(768 - 480) * (150 - 120) + 120px);
                 min-height: calc( (100vw - 320px)/(768 - 480) * (150 - 120) + 120px);
                 min-width: 42.31vw;
@@ -126,9 +132,49 @@
                 font-size: 1.8rem;
                 line-height: 25px;
             }
+            .side-menu__link:hover:after,
+            .side-menu__link1:hover:after,
+            .side-menu__link2:hover:after,
+            .side-menu__link3:hover:after,
+            .side-menu__link4:hover:after,
+            .side-menu__link5:hover:after,
+            .side-menu__link6:hover:after,
+            .side-menu__link7:hover:after,
+            .side-menu__link8:hover:after,
+            .side-menu__link9:hover:after,
+            .side-menu__link10:hover:after,
+            .side-menu__link11:hover:after,
+            .side-menu__link12:hover:after,
+            .side-menu__link13:hover:after,
+            .side-menu__link14:hover:after,
+            .side-menu__link15:hover:after,
+            .side-menu__link16:hover:after,
+            .side-menu__link17:hover:after,
+            .side-menu__link18:hover:after,
+            .side-menu__link19:hover:after,
+            .side-menu__link20:hover:after,
+            .side-menu__link21:hover:after,
+            .side-menu__link22:hover:after,
+            .side-menu__link23:hover:after,
+            .side-menu__link24:hover:after,
+            .side-menu__link25:hover:after,
+            .side-menu__link26:hover:after,
+            .side-menu__link27:hover:after,
+            .side-menu__link28:hover:after,
+            .side-menu__link29:hover:after,
+            .side-menu__link30:hover:after,
+            .side-menu__link31:hover:after,
+            .side-menu__link32:hover:after,
+            .side-menu__link33:hover:after,
+            .side-menu__link34:hover:after {
+                display: none;
+            }
         }
         
         @media only screen and (max-width: 480px) {
+            .wrapper {
+                margin-top: 120px;
+            }
             .heading-block__text {
                 font-size: 1.6rem;
                 line-height: 20px;
@@ -140,11 +186,8 @@
                 height: 160px;
             }
             .heading-font-block1 {
-                max-width: 36.98vw;
-                margin-top: 110px;
                 max-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px);
                 min-height: calc( (100vw - 320px)/(480 - 320) * (120 - 100) + 100px);
-                min-width: 42.31vw;
             }
             .heading-font-block2 {
                 max-height: 137px;
@@ -208,43 +251,6 @@
             }
             .side-menu__link {
                 font-size: 1.8rem;
-            }
-            .side-menu__link:hover:after,
-            .side-menu__link1:hover:after,
-            .side-menu__link2:hover:after,
-            .side-menu__link3:hover:after,
-            .side-menu__link4:hover:after,
-            .side-menu__link5:hover:after,
-            .side-menu__link6:hover:after,
-            .side-menu__link7:hover:after,
-            .side-menu__link8:hover:after,
-            .side-menu__link9:hover:after,
-            .side-menu__link10:hover:after,
-            .side-menu__link11:hover:after,
-            .side-menu__link12:hover:after,
-            .side-menu__link13:hover:after,
-            .side-menu__link14:hover:after,
-            .side-menu__link15:hover:after,
-            .side-menu__link16:hover:after,
-            .side-menu__link17:hover:after,
-            .side-menu__link18:hover:after,
-            .side-menu__link19:hover:after,
-            .side-menu__link20:hover:after,
-            .side-menu__link21:hover:after,
-            .side-menu__link22:hover:after,
-            .side-menu__link23:hover:after,
-            .side-menu__link24:hover:after,
-            .side-menu__link25:hover:after,
-            .side-menu__link26:hover:after,
-            .side-menu__link27:hover:after,
-            .side-menu__link28:hover:after,
-            .side-menu__link29:hover:after,
-            .side-menu__link30:hover:after,
-            .side-menu__link31:hover:after,
-            .side-menu__link32:hover:after,
-            .side-menu__link33:hover:after,
-            .side-menu__link34:hover:after {
-                display: none;
             }
         }
         

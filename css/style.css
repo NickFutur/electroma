@@ -23,17 +23,60 @@
           /*10px*/
       }
       
-      header {
-          background-color: #FFFFFF;
+      body {
+          position: fixed;
       }
       
-      .fixed-header {
+      body.active-block {
+          position: relative;
+      }
+      
+      .preloader {
           position: fixed;
-          top: 0;
-          left: 0;
+          display: flex;
           width: 100%;
-          z-index: 100;
-          animation-name: header-animation;
+          height: 100%;
+          z-index: 999998;
+          background-color: #ffffff;
+          justify-content: center;
+          align-items: center;
+          left: 0;
+          top: 0;
+          transition: 1s all;
+          opacity: 1;
+          visibility: visible;
+      }
+      
+      .preloader.done {
+          opacity: 0;
+          visibility: hidden;
+      }
+      
+      .loader {
+          position: absolute;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          border: 15px solid black;
+          border-top-color: #E5E5E5;
+          z-index: 999999;
+          transform: translate(-50%, -50%);
+          animation: 1.5s preloader-animate infinite linear;
+          top: 50%;
+          left: 50%;
+      }
+      
+      @keyframes preloader-animate {
+          0% {
+              transform: translate(-50%, -50%) rotate(0deg);
+          }
+          100% {
+              transform: translate(-50%, -50%) rotate(360deg);
+          }
+      }
+      
+      header {
+          background-color: #FFFFFF;
       }
       
       @keyframes header-animation {
@@ -123,6 +166,7 @@
       
       .wrapper {
           margin: 0 auto;
+          margin-top: 128px;
           width: 1440px;
       }
       
@@ -316,6 +360,10 @@
           font-size: 1.8rem;
           line-height: 26px;
           letter-spacing: 0.04em;
+      }
+      
+      .another-color:hover {
+          color: #E74B8F;
       }
       
       .another-color {

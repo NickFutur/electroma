@@ -17,12 +17,12 @@
     width: 1180px;
     margin: 0 auto;
     height: 437px;
-    margin-top: 34px;
+    margin-top: 114px;
     margin-bottom: 44px;
 }
 
 .heading-font-block1 {
-    margin-top: 110px;
+    margin-top: -18px;
     max-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 297) + 297px);
     max-width: 49.31vw;
     min-height: calc( (100vw - 1441px)/(2560 - 1441) * (350 - 297) + 297px);
