@@ -62,7 +62,6 @@
     position: relative;
     z-index: 3;
     float: left;
-    margin-left: 80px;
     margin-bottom: 28px;
 }
 
@@ -493,32 +492,24 @@
     color: #000000;
     background: #67D3F7;
     margin-bottom: 28px;
+    position: relative;
+    text-align: left;
 }
 
 
-/* .main-content__title-block {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 70%;
-    right: -59%;
-    background-color: #67D3F7;
-    height: 40px;
-    padding: 0;
-} */
+/*Регулировка длины заголовков у текста*/
 
 .main-content__title-width1 {
-    position: relative;
-    text-align: left;
-    right: calc( (100vw + 1440px)/(1920 + 1440) * (-515 + -129) + -129px);
-    width: calc( (100vw + 1440px)/(1920 + 1440) * (700 + 10) + 10px);
+    width: calc( (100vw - 1920px)/(2560 - 1920) * (1100 - 780) + 780px);
+    /* Работает до 1180px */
+    margin-left: 760px;
 }
 
 .main-content__title-width2 {
-    position: relative;
-    text-align: left;
-    right: calc( (100vw + 1440px)/(1920 + 1440) * (-515 - 129) - 129px);
-    width: 36%;
+    /* width: calc( (100vw - 1920px)/(2560 - 1920) * (1080 - 450) + 450px); */
+    width: calc( (100vw - 1440px)/(2560 - 1440) * (770 - 210) + 210px);
+    /* Работает до 1180px */
+    margin-left: 1090px;
 }
 
 .main-content__text {
@@ -527,4 +518,5 @@
     margin: 0;
     margin-bottom: 28px;
     background: none;
+    text-align: right;
 }
