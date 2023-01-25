@@ -84,6 +84,7 @@
     list-style-type: none;
     display: flex;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .bred-nav__link {
@@ -120,11 +121,8 @@
     position: fixed;
     top: 110px;
     bottom: 0;
-    z-index: 3;
+    z-index: 13;
 }
-
-
-/* Нужно для этого класса создать условие */
 
 .side-menu-off {
     position: absolute;
@@ -138,8 +136,6 @@
 .side-menu__block1 {
     height: 80vh;
     width: 44px;
-    /* max-height: 800px;
-    max-width: 44px; */
     background-color: #1F1F1F;
     cursor: pointer;
 }
@@ -173,7 +169,6 @@
     padding-top: 20px;
     padding-left: 44px;
     padding-right: 30px;
-    /* padding-bottom: 76px; */
     overflow: auto;
 }
 
@@ -241,11 +236,11 @@
 }
 
 .side-menu__link-double:hover:after {
-    transition-delay: 500ms;
+    transition-delay: 100ms;
 }
 
 .side-menu__link:hover:after {
-    transition-delay: 500ms;
+    transition-delay: 100ms;
     margin-top: 15px;
 }
 
@@ -495,6 +490,15 @@
     flex-direction: column;
     width: 1180px;
     margin: 0 auto;
+    text-align: right;
+    /* margin-bottom: 60px; */
+}
+
+.articles {
+    position: relative;
+}
+
+.articles:last-child {
     margin-bottom: 60px;
 }
 
@@ -507,26 +511,31 @@
     letter-spacing: 0.04em;
     color: #000000;
     background: #67D3F7;
-    margin-bottom: 28px;
     position: relative;
-    text-align: left;
+    text-align: right;
+    z-index: 10;
+}
+
+.main-content h2::after {
+    content: "";
+    background: #67D3F7;
+    height: 33px;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.main-content h2 {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 
 /*Регулировка длины заголовков у текста*/
-
-.main-content__title-width1 {
-    width: calc( (100vw - 1920px)/(2560 - 1920) * (1100 - 780) + 780px);
-    /* Работает до 1180px */
-    margin-left: 760px;
-}
-
-.main-content__title-width2 {
-    /* width: calc( (100vw - 1920px)/(2560 - 1920) * (1080 - 450) + 450px); */
-    width: calc( (100vw - 1440px)/(2560 - 1440) * (770 - 210) + 210px);
-    /* Работает до 1180px */
-    margin-left: 1090px;
-}
 
 .main-content__text {
     font-weight: 400;
